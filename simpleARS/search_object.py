@@ -18,7 +18,7 @@ class SearchObjectType(object):
         self.type = type
         self.default = default if default else type()
 
-    def __get__(self, instance, cls):
+    def __get__(self, instance, owner):
         return getattr(instance, self.name, self.default)
 
     def __set__(self, instance, value):
