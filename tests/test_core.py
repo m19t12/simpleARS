@@ -5,27 +5,36 @@ from simpleARS import core
 
 class CoreTestCase(unittest.TestCase):
     def setUp(self):
-        self.api_url_from_services = "https://services.tripinview.com/migration-services/hotels"
-        self.api_url_from_ads = "https://business.tripinview.com/public/ads.json?$filter=zone/scope%20eq%20%27subscription%27&$top=-1"
+        self.retrieved_data = {'key_1': 'value_1', 'key_2': 'value_2', 'key_list_1': ['list_value_1', 'list_value_2', {
+            'sub_key1': ["sub_data_1", "sub_data_2"]}]}
+        self.retrieved_single_data = 'value_1'
+        self.retrieved_sub_data = {'key_list_1': ['list_value_1', 'list_value_2', {
+            'sub_key1': ["sub_data_1", "sub_data_2"]}]}
+        self.from_key = "key_1"
+        self.select_keys = ['key_1', 'key_2']
+        self.select_unknown_keys = ['key_error_1', 'key_error_2']
+        self.select_list_key = {"key_list_1": ['list_value_1', 'list_value_2']}
+        self.select_single_object = []
+        self.select_sub_data = {'key_list_1': ['sub_key1']}
 
-    def test_if_load_json_response_from_api_returns_json(self):
-        api_response = core.load_api_response(self.api_url_from_services)
-        self.assertIsInstance(api_response, dict)
+    def test_if_search_and_retrieve_returns_correct_data(self):
+        result = core.search_and_retrieve(self.retrieved_data, self.select_keys, self.from_key)
+        self.assertEqual(result, {'key_1': 'value_1', 'key_2': 'value_2'})
 
-    def test_if_load_json_response_from_api_returns_list(self):
-        api_response = core.load_api_response(self.api_url_from_ads)
-        self.assertIsInstance(api_response, list)
+    def test_if_search_and_retrieve_returns_none(self):
+        result = core.search_and_retrieve(self.retrieved_data, self.select_unknown_keys, self.from_key)
+        self.assertEqual(result, None)
 
-    def test_if_type_json_api_response_returns_json_object(self):
-        api_response = core.load_api_response(self.api_url_from_services)
-        data = core.api_response_type(api_response)
-        self.assertIsInstance(data, dict)
+    def test_if_search_and_retrieve_returns_key_with_list_value(self):
+        result = core.search_and_retrieve(self.retrieved_data, self.select_list_key, self.from_key)
+        self.assertEqual(result, {'key_list_1': ['list_value_1', 'list_value_2', {
+            'sub_key1': ["sub_data_1", "sub_data_2"]}]})
 
-    def test_if_type_list_api_response_returns_generator_object(self):
-        api_response = core.load_api_response(self.api_url_from_ads)
-        data = core.api_response_type(api_response)
-        self.assertIsInstance(data, object)
+    def test_if_search_and_retrieve_returns_single_object(self):
+        result = core.search_and_retrieve(self.retrieved_single_data, self.select_single_object, self.from_key)
+        self.assertEqual(result, {'key_1': 'value_1'})
 
-    def test_if_api_response_type_raises_error_when_wrong_type_passed(self):
-        with self.assertRaises(TypeError):
-            data = core.api_response_type(1234)
+    def test_if_search_and_retrieve_returns_sub_data(self):
+        result = core.search_and_retrieve(self.retrieved_sub_data, self.select_sub_data, self.from_key)
+        self.assertEqual(result, {'key_list_1': ['list_value_1', 'list_value_2', {
+            'sub_key1': ["sub_data_1", "sub_data_2"]}]})
