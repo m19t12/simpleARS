@@ -2,8 +2,23 @@ import logging
 
 from simpleARS import core_utils, search_object
 
+__authors__ = 'Manolis Tsoukalas'
+__date__ = '2017-1-3'
+__version__ = '0.3'
 
-def search_and_retrieve(data, select_keys, from_key):
+"""
+simpleARS core functionality for retrieving data
+"""
+
+
+def search_and_retrieve(data, select_keys, from_key=""):
+    """
+    method for searching and retrieving data.
+    :param data: the data from wich you want to retrieve
+    :param select_keys: a list with keys
+    :param from_key: the from_key is mostly used when we want to retrieve top level objects
+    :return: return a dictionary item with the data we want to get
+    """
     dict_item = {}
     if len(select_keys) != 0:
         for key in select_keys:
@@ -17,13 +32,19 @@ def search_and_retrieve(data, select_keys, from_key):
                 if key in data:
                     dict_item[key] = data[key]
                 else:
-                    dict_item = None
+                    dict_item[key] = None
     else:
         dict_item[from_key] = data
     return dict_item
 
 
 def retrieve_sub_data(sub_data, search):
+    """
+    method to use when we want to retrieve dictionary data.
+    :param sub_data: dictionary data
+    :param search: search object
+    :return: return the sub data
+    """
     from_key = search.src_from
     select_keys = search.src_select
 
@@ -35,6 +56,13 @@ def retrieve_sub_data(sub_data, search):
 
 
 def retrieve_list_data(list_data, search):
+    """
+    method for retrieving list data.
+    :param list_data: list of dictionary data
+    :param search: search object
+    :return: list of retrieved data in dictionary format
+    """
+
     from_key = search.src_from
     select_keys = search.src_select
     items = []
@@ -45,6 +73,15 @@ def retrieve_list_data(list_data, search):
 
 
 def retrieve_data(api_url, search, mode):
+    """
+    entry method for retrieving data.
+    takes attributes a url a search json and mode for extraction
+    :param api_url: url for the endpoint wich you want to retrieve data
+    :param search: search object in dictionary format
+    :param mode: the mode you want to extract the data
+    :return: the extracted data
+    """
+
     logging.basicConfig(level=logging.INFO)
     logger = logging.getLogger(__name__)
     api_response = core_utils.load_api_response(api_url)
@@ -62,3 +99,5 @@ def retrieve_data(api_url, search, mode):
     else:
         logger.warning("Unknown mode.Enabling default mode csv")
         logger.info("CSV")
+
+    return retrieved_data
