@@ -8,7 +8,7 @@ A simple solution for extracting fields from an API Response in Json format.
 
 ## Examples
 
-```
+```python
 from simpleARS import core
 
 search = {'from': ['select_1', 'select_2', {'sub_from': ['sub_select_1', 'sub_select_2']}]}
