@@ -72,13 +72,13 @@ def retrieve_list_data(list_data, search):
     return items
 
 
-def retrieve_data(api_url, search, mode):
+def retrieve_data(api_url, search, mode="csv"):
     """
     entry method for retrieving data.
     takes attributes a url a search json and mode for extraction
     :param api_url: url for the endpoint wich you want to retrieve data
     :param search: search object in dictionary format
-    :param mode: the mode you want to extract the data
+    :param mode: the mode you want to extract the data. default mode is csv
     :return: the extracted data
     """
 
