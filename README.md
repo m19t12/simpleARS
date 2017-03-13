@@ -1,4 +1,6 @@
 # simple - API Response Search
+[![Build Status](https://travis-ci.org/m19t12/simpleARS.svg?branch=master)](https://travis-ci.org/m19t12/simpleARS)
+[![Coverage Status](https://coveralls.io/repos/github/m19t12/simpleARS/badge.svg?branch=master)](https://coveralls.io/github/m19t12/simpleARS?branch=master)
 
 A simple solution for extracting fields from an API Response in Json format.
 
