@@ -50,6 +50,8 @@ def retrieve_sub_data(sub_data, search):
 
     if from_key in sub_data:
         items = search_and_retrieve(sub_data[from_key], select_keys, from_key)
+    elif from_key == "~":
+        items = search_and_retrieve(sub_data, select_keys, from_key)
     else:
         items = None
     return items
