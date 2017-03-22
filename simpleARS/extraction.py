@@ -54,9 +54,6 @@ def get_save_data(retrieved_data):
                 for data in list_item:
                     dict_object[data] = list_item[data]
             elif isinstance(retrieved_data[key], dict):
-                # list_item = get_save_data(retrieved_data[key])
-                # for data in list_item:
-                #     dict_object[key] = data
                 dict_object[key] = retrieved_data[key]
             else:
                 dict_object[key] = retrieved_data[key]
