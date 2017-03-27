@@ -13,10 +13,10 @@ class SearchObjectType(object):
     Search object descriptor for validating search object structure
     """
 
-    def __init__(self, name, type, default=None):
+    def __init__(self, name, search_type, default=None):
         self.name = "_" + name
-        self.type = type
-        self.default = default if default else type()
+        self.type = search_type
+        self.default = default if default else search_type()
 
     def __get__(self, instance, owner):
         return getattr(instance, self.name, self.default)

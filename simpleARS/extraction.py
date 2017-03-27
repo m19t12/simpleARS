@@ -2,6 +2,14 @@ import csv
 
 from simpleARS import search_object
 
+__authors__ = 'Manolis Tsoukalas'
+__date__ = '2017-1-3'
+__version__ = '0.4'
+
+"""
+extraction functionalities 
+"""
+
 
 def create_header(search_json):
     header = []
@@ -66,11 +74,11 @@ def get_save_data(retrieved_data):
             return processed
 
 
-def csv_extraction(retrieved_data, search_data):
+def csv_extraction(retrieved_data, search_data, csv_file_name):
     header = create_header(search_data)
     save_data = get_save_data(retrieved_data)
 
-    with open('names.csv', 'w') as csv_file:
+    with open(csv_file_name + '.csv', 'w') as csv_file:
         fieldnames = header
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
