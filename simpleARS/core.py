@@ -1,10 +1,10 @@
 import logging
 
-from simpleARS import core_utils, search_object
+from simpleARS import core_utils, search_object, extraction
 
 __authors__ = 'Manolis Tsoukalas'
 __date__ = '2017-1-3'
-__version__ = '0.3'
+__version__ = '0.4'
 
 """
 simpleARS core functionality for retrieving data
@@ -50,6 +50,8 @@ def retrieve_sub_data(sub_data, search):
 
     if from_key in sub_data:
         items = search_and_retrieve(sub_data[from_key], select_keys, from_key)
+    elif from_key == "~":
+        items = search_and_retrieve(sub_data, select_keys, from_key)
     else:
         items = None
     return items
@@ -72,32 +74,37 @@ def retrieve_list_data(list_data, search):
     return items
 
 
-def retrieve_data(api_url, search, mode="csv"):
+def retrieve_data(api_url, search, credentials=None, mode="return", csv_file_name="csv_output"):
     """
     entry method for retrieving data.
     takes attributes a url a search json and mode for extraction
     :param api_url: url for the endpoint wich you want to retrieve data
     :param search: search object in dictionary format
-    :param mode: the mode you want to extract the data. default mode is csv
+    :param credentials: json for the username and password, if the endpoint is password protected
+    :param mode: the mode you want to extract the data. default mode is return data
+    :param csv_file_name: the name of the output file
     :return: the extracted data
     """
 
     logging.basicConfig(level=logging.INFO)
     logger = logging.getLogger(__name__)
-    api_response = core_utils.load_api_response(api_url)
-    search = search_object.SearchObject(search)
+    api_response = core_utils.load_api_response(api_url, credentials)
+    search_obj = search_object.SearchObject(search)
 
     if isinstance(api_response, dict):
-        retrieved_data = retrieve_sub_data(api_response, search)
+        retrieved_data = retrieve_sub_data(api_response, search_obj)
     elif isinstance(api_response, list):
-        retrieved_data = retrieve_list_data(api_response, search)
+        retrieved_data = retrieve_list_data(api_response, search_obj)
     else:
         raise TypeError("Wrong Type Response!!! Response must be list or dict not {}".format(type(api_response)))
 
     if mode == "csv":
-        logger.info("CSV")
+        logger.info("CSV Extraction")
+        extraction.csv_extraction(retrieved_data, search, csv_file_name)
+    elif mode == "return":
+        logger.info("Return Data")
     else:
-        logger.warning("Unknown mode.Enabling default mode csv")
-        logger.info("CSV")
+        logger.warning("Unknown mode.Enabling default mode return data")
+        logger.info("Return Data")
 
     return retrieved_data
