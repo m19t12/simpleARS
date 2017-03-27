@@ -1,3 +1,4 @@
+import os
 import unittest
 
 from simpleARS import extraction
@@ -24,6 +25,9 @@ class TestExtraction(unittest.TestCase):
 
         self.retrieved_data_v2 = {
             "from_data_1": [{"from_sub_data_1": [{"from_list_data_1": "data_1"}, {"from_list_data_2": "data_2"}]}]}
+
+        self.search_retrieve_data = {
+            "~": ["from_data_1", "from_data_2", {"from_list_data_1": ["from_sub_data_1", "from_sub_data_2"]}]}
 
     def test_check_if_create_header_function_returns_correct_header(self):
         header = extraction.create_header(self.search)
@@ -57,3 +61,13 @@ class TestExtraction(unittest.TestCase):
     def test_if_get_saved_data_return_correct_one_key_results(self):
         returned_data = extraction.get_save_data(self.retrieved_data_v2)
         self.assertEqual(returned_data, [{'from_list_data_1': 'data_1'}])
+
+    def test_if_extraction_returns_correct_file_name(self):
+        csv_file = ""
+        extraction.csv_extraction(self.retrieved_data, self.search_retrieve_data, "tests/output_csv")
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        for file in os.listdir(dir_path):
+            print(file)
+            if file.endswith(".csv"):
+                csv_file = file
+        self.assertEqual(csv_file, "output_csv.csv")
