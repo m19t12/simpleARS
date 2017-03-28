@@ -78,7 +78,7 @@ def retrieve_data(api_url, search, credentials=None, mode="return", csv_file_nam
     """
     entry method for retrieving data.
     takes attributes a url a search json and mode for extraction
-    :param api_url: url for the endpoint wich you want to retrieve data
+    :param api_url: url for the endpoint which you want to retrieve data
     :param search: search object in dictionary format
     :param credentials: json for the username and password, if the endpoint is password protected
     :param mode: the mode you want to extract the data. default mode is return data

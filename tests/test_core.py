@@ -1,3 +1,4 @@
+import os
 import unittest
 
 from simpleARS import core, search_object
@@ -19,7 +20,12 @@ class CoreTestCase(unittest.TestCase):
         self.select_records_no_key = ['dataset_id', {'amentities': ['name', 'id']}, {'weather': ['wind_speed']},
                                       'no_key']
         self.select_records_no_from_key = ['dataset_id', {'no_from_key': ['name', 'id']}, {'weather': ['wind_speed']},
-                                      'no_key']
+                                           'no_key']
+        self.search_ads = {"~": ["id", "name", "index"]}
+
+        self.services_end_point = "https://services.tripinview.com/migration-services/hotels"
+        self.ads_end_point = "https://business.tripinview.com/" \
+                             "public/ads.json?$filter=zone/scope%20eq%20%27subscription%27&$top=-1"
 
     def test_if_search_and_retrieve_return_records(self):
         results = core.search_and_retrieve(self.retrieved_records, self.select_records)
@@ -44,3 +50,21 @@ class CoreTestCase(unittest.TestCase):
         search_obj = search_object.SearchObject({"data": ["data_1", "data_2"]})
         results = core.retrieve_sub_data(self.data, search_obj)
         self.assertEqual(results, None)
+
+    def test_if_retrieve_data_method_returns_correct_results(self):
+        results = core.retrieve_data(self.services_end_point, self.search)
+        self.assertIsInstance(results, dict)
+
+    def test_if_retrieve_data_method_returns_correct_csv_file(self):
+        core.retrieve_data(self.services_end_point, self.search, mode="csv", csv_file_name="tests/test_output")
+        csv_file = ""
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        for file in os.listdir(dir_path):
+            if file.endswith(".csv"):
+                csv_file = file
+        self.assertEqual(csv_file, "test_output.csv")
+        os.remove("tests/" + csv_file)
+
+    def test_if_retrieve_data_method_returns_list_instance(self):
+        results = core.retrieve_data(self.ads_end_point, self.search_ads)
+        self.assertIsInstance(results, list)

@@ -67,7 +67,7 @@ class TestExtraction(unittest.TestCase):
         extraction.csv_extraction(self.retrieved_data, self.search_retrieve_data, "tests/output_csv")
         dir_path = os.path.dirname(os.path.realpath(__file__))
         for file in os.listdir(dir_path):
-            print(file)
             if file.endswith(".csv"):
                 csv_file = file
         self.assertEqual(csv_file, "output_csv.csv")
+        os.remove("tests/" + csv_file)
