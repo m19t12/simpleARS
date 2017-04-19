@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from simpleARS import core, search_object
+from simple_ars import core, search_object
 
 
 class CoreTestCase(unittest.TestCase):
@@ -68,3 +68,14 @@ class CoreTestCase(unittest.TestCase):
     def test_if_retrieve_data_method_returns_list_instance(self):
         results = core.retrieve_data(self.ads_end_point, self.search_ads)
         self.assertIsInstance(results, list)
+
+    def test_if_retrieve_data_returns_default_extraction_mode(self):
+        core.retrieve_data(self.ads_end_point, self.search_ads, None, "random_mode")
+
+    def test_if_ars_returns_correct_data(self):
+        results = core.ars(self.data, self.search_root)
+        self.assertEqual(results, {"from_data_1": "data_1", "from_data_2": "data_2", "from_data_3": "data_3"})
+
+    def test_if_ars_raises_type_error_if_retrieved_data_is_wrong_type(self):
+        with self.assertRaises(TypeError):
+            core.ars("data", self.search_root)

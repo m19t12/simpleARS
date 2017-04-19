@@ -1,6 +1,6 @@
 import unittest
 
-from simpleARS import search_object
+from simple_ars import search_object
 
 
 class SearchObjectTestCase(unittest.TestCase):
