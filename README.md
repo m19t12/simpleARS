@@ -14,5 +14,5 @@ A simple solution for extracting fields from an API Response in Json format.
 from simpleARS import core
 
 search = {'from': ['select_1', 'select_2', {'sub_from': ['sub_select_1', 'sub_select_2']}]}
-retrieved_data = core.retrieve_data('https://test-url.api.com/endpoint', search, {"username":"user", "password":"pass"}, 'csv', "test_file")
+retrieved_data = core.retrieve_data('https://test-url.api.com/endpoint', search, {'username':'user', 'password':'pass'}, 'csv', 'test_file')
 ```
