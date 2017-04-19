@@ -1,6 +1,6 @@
 import csv
 
-from simpleARS import search_object
+from simple_ars import search_object
 
 __authors__ = 'Manolis Tsoukalas'
 __date__ = '2017-1-3'

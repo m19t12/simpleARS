@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from simpleARS import extraction
+from simple_ars import extraction
 
 
 class TestExtraction(unittest.TestCase):

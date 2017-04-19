@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from simpleARS import core_utils
+from simple_ars import core_utils
 
 
 class CoreUtilsTestCase(unittest.TestCase):
