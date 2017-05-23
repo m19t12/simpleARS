@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Search Object classes and functions
 for validating and parsing data

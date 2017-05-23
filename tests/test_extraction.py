@@ -1,3 +1,4 @@
+# coding=utf-8
 import os
 import unittest
 
@@ -64,10 +65,10 @@ class TestExtraction(unittest.TestCase):
 
     def test_if_extraction_returns_correct_file_name(self):
         csv_file = ""
-        extraction.csv_extraction(self.retrieved_data, self.search_retrieve_data, "tests/output_csv")
+        extraction.csv_extraction(self.retrieved_data, self.search_retrieve_data, "output_csv")
         dir_path = os.path.dirname(os.path.realpath(__file__))
         for file in os.listdir(dir_path):
             if file.endswith(".csv"):
                 csv_file = file
         self.assertEqual(csv_file, "output_csv.csv")
-        os.remove("tests/" + csv_file)
+        os.remove(csv_file)
