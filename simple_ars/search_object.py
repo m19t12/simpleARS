@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 Search Object classes and functions
 for validating and parsing data
@@ -12,6 +13,7 @@ class SearchObjectType(object):
     """
     Search object descriptor for validating search object structure
     """
+    __slots__ = ('name', 'type', 'default')
 
     def __init__(self, name, search_type, default=None):
         self.name = "_" + name
@@ -86,6 +88,7 @@ class SearchObject(object):
     this is the class we will use for creating and validating the search object
     so we can get the from key and the select key as class attributes
     """
+    __slots__ = ('json_object', 'src_from', 'src_select')
 
     def __init__(self, json_object):
         self.json_object = validate(json_object)
