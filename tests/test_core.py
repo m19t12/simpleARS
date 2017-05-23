@@ -1,3 +1,4 @@
+# coding=utf-8
 import os
 import unittest
 
@@ -56,14 +57,14 @@ class CoreTestCase(unittest.TestCase):
         self.assertIsInstance(results, dict)
 
     def test_if_retrieve_data_method_returns_correct_csv_file(self):
-        core.retrieve_data(self.services_end_point, self.search, mode="csv", csv_file_name="tests/test_output")
+        dir_path = os.path.dirname(os.path.realpath(__file__)) + "/"
+        core.retrieve_data(self.services_end_point, self.search, mode="csv", csv_file_name=dir_path + "test_output")
         csv_file = ""
-        dir_path = os.path.dirname(os.path.realpath(__file__))
         for file in os.listdir(dir_path):
             if file.endswith(".csv"):
                 csv_file = file
         self.assertEqual(csv_file, "test_output.csv")
-        os.remove("tests/" + csv_file)
+        os.remove(dir_path + csv_file)
 
     def test_if_retrieve_data_method_returns_list_instance(self):
         results = core.retrieve_data(self.ads_end_point, self.search_ads)
