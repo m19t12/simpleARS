@@ -1,3 +1,4 @@
+# coding=utf-8
 import os
 import unittest
 
@@ -63,11 +64,11 @@ class TestExtraction(unittest.TestCase):
         self.assertEqual(returned_data, [{'from_list_data_1': 'data_1'}])
 
     def test_if_extraction_returns_correct_file_name(self):
+        dir_path = os.path.dirname(os.path.realpath(__file__)) + "/"
         csv_file = ""
-        extraction.csv_extraction(self.retrieved_data, self.search_retrieve_data, "tests/output_csv")
-        dir_path = os.path.dirname(os.path.realpath(__file__))
+        extraction.csv_extraction(self.retrieved_data, self.search_retrieve_data, dir_path + "output_csv")
         for file in os.listdir(dir_path):
             if file.endswith(".csv"):
                 csv_file = file
         self.assertEqual(csv_file, "output_csv.csv")
-        os.remove("tests/" + csv_file)
+        os.remove(dir_path + csv_file)
