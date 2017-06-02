@@ -1,3 +1,4 @@
+# coding=utf-8
 import csv
 
 from simple_ars import search_object
@@ -60,32 +61,37 @@ def find_relationships(save_data):
 def get_save_data(retrieved_data):
     """
     method for serializing the retrieved data and converted for csv extraction
-    :param retrieved_data: the data retrieved from the core retrieve process 
+    :param retrieved_data: the data retrieved from the core retrieve process
     :return: return the data for saving in array containing dicts [{dict_1}, {dict_2}]
     """
     headers = []
 
-    for key in retrieved_data:
+    if isinstance(retrieved_data, list):
+        data = retrieved_data[0]
+    else:
+        data = retrieved_data
+
+    for key in data:
         headers.append(key)
 
     if len(headers) > 1:
         list_data = []
         dict_object = {}
         for key in headers:
-            if isinstance(retrieved_data[key], list):
-                list_item = retrieved_data[key][0]
+            if isinstance(data[key], list):
+                list_item = data[key][0]
                 for data in list_item:
                     dict_object[data] = list_item[data]
-            elif isinstance(retrieved_data[key], dict):
-                dict_object[key] = retrieved_data[key]
+            elif isinstance(data[key], dict):
+                dict_object[key] = data[key]
             else:
-                dict_object[key] = retrieved_data[key]
+                dict_object[key] = data[key]
         list_data.append(dict_object)
         return list_data
     else:
         key = headers[0]
-        if isinstance(retrieved_data[key], list):
-            processed = find_relationships(retrieved_data[key])
+        if isinstance(data[key], list):
+            processed = find_relationships(data[key])
             return processed
 
 
@@ -107,3 +113,5 @@ def csv_extraction(retrieved_data, search_data, csv_file_name):
         writer.writeheader()
         for data in save_data:
             writer.writerow(data)
+
+    return save_data

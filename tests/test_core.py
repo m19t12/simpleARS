@@ -1,82 +1,143 @@
 # coding=utf-8
-import os
-import unittest
-
-from simple_ars import core, search_object
+from simple_ars.core import ars, retrieve_data
+from tests import BaseARSTestCase
 
 
-class CoreTestCase(unittest.TestCase):
+class CoreTestCase(BaseARSTestCase):
     def setUp(self):
-        self.api_response = {'data':
-            {'records': [
-                {'dataset_id': 1000, 'amentities': [{'name': 'bar', 'id': 1}],
-                 'weather': {'wind_speed': 'full'}}
-            ]}, 'total': 300}
-        self.data = {"from_data_1": "data_1", "from_data_2": "data_2", "from_data_3": "data_3"}
-        self.search_root = {"~": ["from_data_1", "from_data_2", "from_data_3"]}
-        self.search = {'data': [{'records': ['dataset_id', {'amentities': ['name', 'id']}]}]}
-        self.retrieved_records = {'dataset_id': 1000, 'amentities': [{'name': 'bar', 'id': 1}],
-                                  'weather': {'wind_speed': 'full'}}
-        self.select_records = ['dataset_id', {'amentities': ['name', 'id']}, {'weather': ['wind_speed']}]
-        self.select_records_no_key = ['dataset_id', {'amentities': ['name', 'id']}, {'weather': ['wind_speed']},
-                                      'no_key']
-        self.select_records_no_from_key = ['dataset_id', {'no_from_key': ['name', 'id']}, {'weather': ['wind_speed']},
-                                           'no_key']
-        self.search_ads = {"~": ["id", "name", "index"]}
+        super(CoreTestCase, self).setUp()
 
-        self.services_end_point = "https://services.tripinview.com/migration-services/hotels"
-        self.ads_end_point = "https://business.tripinview.com/" \
-                             "public/ads.json?$filter=zone/scope%20eq%20%27subscription%27&$top=-1"
+        self.single_search = {"data": [{"records": ['unique_id', 'status', 'address']}, 'total']}
+        self.list_search = {"~": ['id', 'name', 'zip_code']}
 
-    def test_if_search_and_retrieve_return_records(self):
-        results = core.search_and_retrieve(self.retrieved_records, self.select_records)
-        self.assertEqual(results, {'dataset_id': 1000, 'amentities': [{'name': 'bar', 'id': 1}],
-                                   'weather': {'wind_speed': 'full'}})
+        self.single_sub_search = {"data": [{"records": [{"weather": ['airport_ref']}, {"languages": ['name']}]}]}
+        self.list_sub_search = {"~": [{"users": ['user_id']}, {'attrs': [{'prices': ['max_price']}]}]}
 
-    def test_if_one_key_doesnt_exist(self):
-        results = core.search_and_retrieve(self.retrieved_records, self.select_records_no_key)
-        self.assertEqual(results, {'dataset_id': 1000, 'amentities': [{'name': 'bar', 'id': 1}],
-                                   'weather': {'wind_speed': 'full'}, 'no_key': None})
+        self.single_search_key_doesnt_exist = {"data": [{"records": ['foo', 'status', 'address']}, 'total']}
+        self.list_search_key_doesnt_exist = {"~": ['bar', 'name', 'zip_code']}
 
-    def test_if_search_and_retrieve_return_top_data(self):
-        results = core.search_and_retrieve(self.api_response['total'], [], 'total')
-        self.assertEqual(results, {'total': 300})
+    def test_ars_functionality(self):
+        """Test if method ars works properly
+        """
+        # -- Test for single json response --
+        response = ars(self.single_response_data, self.single_search)
 
-    def test_if_retrieve_sub_data_returns_correct_data_when_tilda_sign_used(self):
-        search_obj = search_object.SearchObject(self.search_root)
-        results = core.retrieve_sub_data(self.data, search_obj)
-        self.assertEqual(results, {"from_data_1": "data_1", "from_data_2": "data_2", "from_data_3": "data_3"})
+        # Check if single response contains the total key
+        self.assertEqual(response['total'], 4122)
 
-    def test_if_retrieve_sub_data_returns_none_when_no_key_exists(self):
-        search_obj = search_object.SearchObject({"data": ["data_1", "data_2"]})
-        results = core.retrieve_sub_data(self.data, search_obj)
-        self.assertEqual(results, None)
+        # Check if single response contain the first items unique_id key
+        first_element = response['records'][0]
+        self.assertEqual(first_element['unique_id'], 58788)
 
-    def test_if_retrieve_data_method_returns_correct_results(self):
-        results = core.retrieve_data(self.services_end_point, self.search)
-        self.assertIsInstance(results, dict)
+        # Check if single response contain the second items unique_id key
+        second_element = response['records'][1]
+        self.assertEqual(second_element['unique_id'], 58789)
 
-    def test_if_retrieve_data_method_returns_correct_csv_file(self):
-        dir_path = os.path.dirname(os.path.realpath(__file__)) + "/"
-        core.retrieve_data(self.services_end_point, self.search, mode="csv", csv_file_name=dir_path + "test_output")
-        csv_file = ""
-        for file in os.listdir(dir_path):
-            if file.endswith(".csv"):
-                csv_file = file
-        self.assertEqual(csv_file, "test_output.csv")
-        os.remove(dir_path + csv_file)
+        # Test sub data retrieval in single json response
+        response = ars(self.single_response_data, self.single_sub_search)
 
-    def test_if_retrieve_data_method_returns_list_instance(self):
-        results = core.retrieve_data(self.ads_end_point, self.search_ads)
-        self.assertIsInstance(results, list)
+        # Check if first element contains the weather airport_ref key
+        first_element = response['records'][0]['weather']
+        self.assertEqual(first_element['airport_ref'], 'Reggio Calabria (LICR)')
 
-    def test_if_retrieve_data_returns_default_extraction_mode(self):
-        core.retrieve_data(self.ads_end_point, self.search_ads, None, "random_mode")
+        # Check if second element contains the weather airport_ref key
+        second_element = response['records'][1]['weather']
+        self.assertEqual(second_element['airport_ref'], 'Luqa (LMML)')
 
-    def test_if_ars_returns_correct_data(self):
-        results = core.ars(self.data, self.search_root)
-        self.assertEqual(results, {"from_data_1": "data_1", "from_data_2": "data_2", "from_data_3": "data_3"})
+        # Check if first element contains the first languages name key
+        first_element = response['records'][0]['languages']
+        self.assertEqual(first_element[0]['name'], 'Agostiniana Hotel')
 
-    def test_if_ars_raises_type_error_if_retrieved_data_is_wrong_type(self):
+        # Check if second element contains the first languages name key
+        second_element = response['records'][1]['languages']
+        self.assertEqual(second_element[0]['name'], 'Riviera Resort & Spa')
+
+        # Check if forth which contains more languages returns properly the second languages name key
+        fourth_element = response['records'][3]['languages']
+        self.assertEqual(fourth_element[1]['name'], 'Aldiola Country Resort')
+
+        # Test if key doesnt exist in single response json
+        response = ars(self.single_response_data, self.single_search_key_doesnt_exist)
+
+        # Check if key doesnt exist in single json response first element
+        first_element = response['records'][0]
+        self.assertEqual(first_element['foo'], None)
+
+        # Check if key doesnt exist in single json response second element
+        second_element = response['records'][1]
+        self.assertEqual(second_element['foo'], None)
+
+        # -- Test for list response --
+        response = ars(self.list_response_data, self.list_search)
+
+        # Check if list response first element contains the id key
+        first_element = response[0]
+        self.assertEqual(first_element['id'], 70029)
+
+        # Check if list response second element contains the id key
+        second_element = response[1]
+        self.assertEqual(second_element['id'], 70023)
+
+        # Test sub data retrieval in list json response
+        response = ars(self.list_response_data, self.list_sub_search)
+
+        # Check if first element returns users user id key correct
+        first_element = response[0]['users']
+        self.assertEqual(first_element[0]['user_id'], '1')
+
+        # Check if second element returns users user id key correct
+        second_element = response[1]['users']
+        self.assertEqual(second_element, [])
+
+        # Check if first element returns None type attrs empty dictionary
+        first_element = response[0]['attrs']
+        self.assertEqual(first_element, {})
+
+        # Test if key doesnt exist in list response
+        response = ars(self.list_response_data, self.list_search_key_doesnt_exist)
+
+        # Check if key doesnt exist in list response first element
+        first_element = response[0]
+        self.assertEqual(first_element['bar'], None)
+
+        # Test if ARS raises TypeError when we give wrong Response Type
         with self.assertRaises(TypeError):
-            core.ars("data", self.search_root)
+            ars(self.wrong_type_response, "")
+
+    def test_retrieve_data_functionality(self):
+        """
+        Test if retrieve data method works properly
+        """
+        # -- Test for list json response --
+        response = retrieve_data(api_url=self.cms_api, credentials=self.credentials, search=self.list_search)
+
+        # Check if first element has key id
+        first_element = response[0]
+        self.assertEqual(first_element['id'], 70546)
+
+        # Check if first element has key name
+        self.assertEqual(first_element['name'], 'St.Thomas Villas Resort')
+
+        # Test for sub data list response
+        response = retrieve_data(api_url=self.cms_api, credentials=self.credentials, search=self.list_sub_search)
+
+        # Check if first element has key prices
+        first_element = response[0]['attrs']['prices']
+        self.assertEqual(first_element['max_price'], 2)
+
+        # -- Test for single json response --
+        response = retrieve_data(api_url=self.service_api, search=self.single_search)
+
+        # Check if first element has key unique_id
+        first_element = response['records'][0]
+        self.assertEqual(first_element['unique_id'], 58788)
+
+        # -- Test export single json response to csv functionality --
+        # response = retrieve_data(api_url=self.service_api, search=self.single_search, mode='csv', csv_file_name='output')
+        # print(response)
+        #
+        # # -- Test export list json response to csv functionality --
+        # response = retrieve_data(api_url=self.cms_api, credentials=self.credentials, search=self.list_search,
+        #                          mode='csv',
+        #                          csv_file_name='output')
+        # print(response)
