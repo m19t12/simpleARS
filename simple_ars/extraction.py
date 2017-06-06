@@ -1,10 +1,11 @@
+# coding=utf-8
 import csv
 
 from simple_ars import search_object
 
 __authors__ = 'Manolis Tsoukalas'
 __date__ = '2017-1-3'
-__version__ = '0.4'
+__version__ = '0.5'
 
 """
 extraction functionalities 
@@ -32,61 +33,63 @@ def create_header(search_json):
     return header
 
 
-def find_relationships(save_data):
+def retrieve_data(data, header):
     """
-    method for finding if data relationship is one to many [data_1, [list_data_2], data_2]
-    :param save_data: retrieved data from the filtering process
-    :return: return the data with the relationship
+    method for processing the retrieved data and find the correct relationship to display in csv format.
+    :param data: data to be processed.
+    :param header: the header we want to extract.
+    :return: return the data corresponding to the header.
     """
-    processed_data = {}
-    list_data = []
+    dict_data = {}
 
-    for data in save_data:
+    if isinstance(data, dict):
         for key, value in data.items():
-            if isinstance(data[key], list):
-                limit_item = data[key][0]
-                for sub_data in limit_item:
-                    processed_data[sub_data] = limit_item[sub_data]
-            elif isinstance(data[key], dict):
-                for dict_key, dict_value in data[key].items():
-                    processed_data[dict_key] = dict_value
+            if key == header:
+                if isinstance(value, dict):
+                    dict_data.update(value)
+                elif isinstance(value, list):
+                    if value:
+                        dict_data.update(value[0])
+                    else:
+                        dict_data.update({key: value})
+                else:
+                    dict_data.update({key: value})
             else:
-                processed_data[key] = data[key]
-        list_data.append(processed_data)
+                if value:
+                    dict_data.update(retrieve_data(value, header))
+                else:
+                    dict_data.update({header: value})
+    elif isinstance(data, list):
+        dict_data.update(retrieve_data(data[0], header))
 
-    return list_data
+    return dict_data
 
 
-def get_save_data(retrieved_data):
+def get_save_data(retrieved_data, headers):
     """
     method for serializing the retrieved data and converted for csv extraction
-    :param retrieved_data: the data retrieved from the core retrieve process 
+    :param headers: the headers for the csv columns
+    :param retrieved_data: the data retrieved from the core retrieve process
     :return: return the data for saving in array containing dicts [{dict_1}, {dict_2}]
     """
-    headers = []
 
-    for key in retrieved_data:
-        headers.append(key)
+    csv_data = []
 
-    if len(headers) > 1:
-        list_data = []
-        dict_object = {}
-        for key in headers:
-            if isinstance(retrieved_data[key], list):
-                list_item = retrieved_data[key][0]
-                for data in list_item:
-                    dict_object[data] = list_item[data]
-            elif isinstance(retrieved_data[key], dict):
-                dict_object[key] = retrieved_data[key]
-            else:
-                dict_object[key] = retrieved_data[key]
-        list_data.append(dict_object)
-        return list_data
-    else:
-        key = headers[0]
-        if isinstance(retrieved_data[key], list):
-            processed = find_relationships(retrieved_data[key])
-            return processed
+    if isinstance(retrieved_data, dict):
+        dict_data = {}
+        for header in headers:
+            dict_data.update(retrieve_data(retrieved_data, header))
+        csv_data.append(dict_data)
+    elif isinstance(retrieved_data, list):
+        item = []
+        for data in retrieved_data:
+            dict_data = {}
+            for header in headers:
+                dict_data.update(retrieve_data(data, header))
+            item.append(dict_data)
+        csv_data = item
+
+    return csv_data
 
 
 def csv_extraction(retrieved_data, search_data, csv_file_name):
@@ -97,13 +100,15 @@ def csv_extraction(retrieved_data, search_data, csv_file_name):
     :param csv_file_name: the name for the csv file you created
     :return: the csv file
     """
-    header = create_header(search_data)
-    save_data = get_save_data(retrieved_data)
+    headers = create_header(search_data)
+    save_data = get_save_data(retrieved_data, headers)
 
     with open(csv_file_name + '.csv', 'w') as csv_file:
-        fieldnames = header
+        fieldnames = headers
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
         writer.writeheader()
         for data in save_data:
             writer.writerow(data)
+
+    return save_data

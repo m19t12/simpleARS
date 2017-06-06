@@ -1,0 +1,2034 @@
+{
+  "errors": [],
+  "status_text": "OK",
+  "status_code": 200,
+  "data": {
+    "total": 4122,
+    "records": [
+      {
+        "unique_id": 58788,
+        "amentities": [
+          {
+            "name": "Bar/lounge",
+            "id": 1
+          },
+          {
+            "name": "Restaurant",
+            "id": 2
+          },
+          {
+            "name": "Dry cleaning/laundry service",
+            "id": 4
+          },
+          {
+            "name": "Airport transportation",
+            "id": 5
+          },
+          {
+            "name": "Air conditioning",
+            "id": 12
+          },
+          {
+            "name": "Minibar",
+            "id": 13
+          },
+          {
+            "name": "In-room safe",
+            "id": 14
+          },
+          {
+            "name": "Room service",
+            "id": 15
+          },
+          {
+            "name": "Internet access",
+            "id": 16
+          },
+          {
+            "name": "24-hour Reception",
+            "id": 41
+          },
+          {
+            "name": "Rent a Car",
+            "id": 42
+          },
+          {
+            "name": "Satellite TV / TV",
+            "id": 39
+          }
+        ],
+        "custom_images": [
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4917/48e4b463085960b8528654e508ba282d-letto matrimoniale 2.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4917/b9abb98c67af29443318654092377b27-hotel di notte .jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4917/82cc5a860ccda6731fb8c14eeb59c35b-hall.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": true,
+            "filename": "media/entities_hotels/4917/49a7c7daaab9f595249ae132d4859f78-hotel.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4917/31f4ab364c5effc63daf45baaaacbb0f-sala da pranzo.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4917/25db4b10bcf17dc912ba49185b5a19af-letto matrimoniale.jpg",
+            "size_300": true,
+            "size_800": false
+          }
+        ],
+        "edit_date": "2016-02-08 05:16:24.863124",
+        "countries_id": "IT",
+        "status": "ready",
+        "has_parking": false,
+        "show_paid_pins": false,
+        "price_to": 0,
+        "point": "0101000020E61000000E000094A2AA2E404054593018F54240",
+        "has_beach_front": false,
+        "category": 4,
+        "active": true,
+        "tiv_images": null,
+        "address": "Viale A. De Gasperi",
+        "telephone01": "+390942721608",
+        "expedia_link": "http://www.expedia.com/Messina-Hotels-Agostiniana-Hotel.h3991467.Hotel-Information",
+        "tripadvisor_link": "www.tripadvisor.com/Hotel_Review-g1016347-d1554214-Reviews-Hotel_Agostiniana-Forza_d_Agro_Province_of_Messina_Sicily.html",
+        "weather": {
+          "airport_ref": "Reggio Calabria (LICR)",
+          "wind_speed": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LICR_03.png",
+          "temperature": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LICR_01.png",
+          "sunshine": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LICR_04.png",
+          "humidity": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LICR_02.png"
+        },
+        "checkin_time": "14:00:00",
+        "website_link": "http://www.agostinianahotel.com/en/index.html",
+        "infoentity_id": 22925,
+        "dbl_rights": null,
+        "add_date": "2015-07-09 04:40:34.77274",
+        "has_wifi": false,
+        "checkout_time": "12:00:00",
+        "destination_id_override": -1,
+        "rooms": 15,
+        "id": 4917,
+        "destination_id": [
+          50225
+        ],
+        "telephone02": "+393311890661",
+        "email": "Info@agostinianahotel.com",
+        "pin_rights": null,
+        "languages": [
+          {
+            "language": "en",
+            "name": "Agostiniana Hotel",
+            "location_desc": "",
+            "facilities": "<p>Owners Pippo and Rosy Bondi are delighted to offer you an intimate ambience, refined with every comfort and style, and characterized by exquisite ceramic finishes decorated by hand and crafted stone. Get ready to experience the art of fine dining with mouth watering gastronomy offered in the hotels Restaurant. You are welcomed by professional friendly and attentive staff. All this to ensure your stay at Agostiniana Hotel is a magical one marked by gusto, tranquility and relaxation.<br />\r\nOur highly qualified reception staff is at your disposal 24 hour seven days a week and offers you advice on tours, local events and attractions as well as assistance with bookings of guided tours. They will do their upmost to ensure your stay is a memorable one.<br />\r\nOur guests are able to enjoy the comfort or our ample shared areas available in the Hotel including the panoramic Terrace and the Lounge Bar where you are able to enjoy a refreshing drink at any time of the day. For those who enjoy a quiet reading space there is no better place than our comfortable Hall.</p>\r\n",
+            "fees_desc": "",
+            "policies": "",
+            "description": "<p>Within the splendid frame of the Sicilian Ionian coastline, looking out across the d`Agro valley, Agostiniana Hotel awaits you, lying sweetly against the walls of a mountain in the picturesque town of Forza D`Agro.<br />\r\nAgostiniana Hotel is a newly constructed four star hotel which boasts an amazing panorama. Like a painters canvas, with majestic volcano Mt Etna in the distant background offering spectacular eruptions. In the foreground there are rolling green hills and valleys leading to the jewel that is Taormina hosting its splendid bay. Our eyes then follow the coast who starting from Giardini Naxos reaches Messina and dives gently into the clear blue crystal Sicilia Sea.</p>\r\n",
+            "rooms_desc": "<p>Our 15 rooms are positioned between the third and fourth floors. Each with its own balcony, they are spacious, luminous, furnished with &lsquo;buon gusto&rsquo; in a simple yet welcoming style. Our clients are offered every comfort from the classic to the more moder:<br />\r\nTV, safe, telephone, computer with internet connection, bar fridge, air conditioning.<br />\r\nAll rooms have furnishings in wood and wrought iron, with marble bathrooms including shower, basin and quality linen.</p>\r\n"
+          }
+        ],
+        "entity_has_paid_pins": false,
+        "dataset_id": 19422,
+        "has_restaurant": true,
+        "price_from": 0,
+        "booking_link": "http://www.booking.com/hotel/it/agostiniana.html"
+      },
+      {
+        "unique_id": 58789,
+        "amentities": [
+          {
+            "name": "Bar/lounge",
+            "id": 1
+          },
+          {
+            "name": "Restaurant",
+            "id": 2
+          },
+          {
+            "name": "Air conditioning",
+            "id": 12
+          },
+          {
+            "name": "Minibar",
+            "id": 13
+          },
+          {
+            "name": "In-room safe",
+            "id": 14
+          },
+          {
+            "name": "Internet access",
+            "id": 16
+          },
+          {
+            "name": "Spa",
+            "id": 19
+          },
+          {
+            "name": "Fitness center",
+            "id": 29
+          },
+          {
+            "name": "Breakfast",
+            "id": 3
+          },
+          {
+            "name": "Conference Hall",
+            "id": 36
+          },
+          {
+            "name": "Swimming Pool",
+            "id": 8
+          }
+        ],
+        "custom_images": [
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/7f9b8557cc561dadd0797920ac150dc3-5.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/23a6aa6667f9c4b78954a6605fa0e348-3.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": true,
+            "filename": "media/entities_hotels/1391/05040810d8f1e622b0fa43133e33d24b-1.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/03fbd87defd6639b58c591e41bdee22b-bnr-sea.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/b59b17cadc4dc4273aaf797ea7263461-img-accommodation-country.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/fad9915e45713e7d064f50e72b2c86d7-bnr-meetings&events.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/a258513657f5f709cc15564a7caf2ecd-bnr-poolview.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/4c62849db2a1d3125436a7ac2badd67f-img-accommodation-family.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/155ee046e75182513d194ee2efee9c99-bnr-lookout.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/cd4056e0231219b970c47d9a40e9f56c-bnr-lobby.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/cba987419cd20a35b018e3f845134ce5-2.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/b2d791e71ebe25cbbcdd778a18ab2b79-bnr-solemar.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/b05013e4719ae20041bb64601f606115-bnr-spa.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/ace5f3f3c4e8eeb7520680f5421a056a-4.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/96a3de563e3915bf87716ce8063a0237-img-accommodation-suites.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/9162666335ac11df17ec8cb1deed8680-bnr-country.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/83685b11697cbee3c96e9658179d022c-img-accommodation-superior.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/43ce588864eb855975d9d3bf392b734b-bnr-charleynoble.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/de45abeb09b1488c50d3a2d18ac47993-bistro terrace content.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1391/d26cf4fe456897c3c0d1ecbb7de57d81-bnr-mirasol.jpg",
+            "size_300": true,
+            "size_800": true
+          }
+        ],
+        "edit_date": "2016-02-08 05:16:24.863124",
+        "countries_id": "MT",
+        "status": "ready",
+        "has_parking": false,
+        "show_paid_pins": false,
+        "price_to": 999,
+        "point": "0101000020E61000000EF4FFF03EB02C408CEC9DD732FE4140",
+        "has_beach_front": false,
+        "category": 4,
+        "active": true,
+        "tiv_images": null,
+        "address": "Marfa Bay",
+        "telephone01": "+35621525900",
+        "expedia_link": "http://www.expedia.com/Malta-Hotels-Riviera-Resort-And-Spa-Malta.h986091.Hotel-Information",
+        "tripadvisor_link": "http://www.tripadvisor.com.gr/Hotel_Review-g230152-d267339-Reviews-The_Riviera_Resort_Spa-Mellieha_Island_of_Malta.html",
+        "weather": {
+          "airport_ref": "Luqa (LMML)",
+          "wind_speed": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LMML_03.png",
+          "temperature": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LMML_01.png",
+          "sunshine": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LMML_04.png",
+          "humidity": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LMML_02.png"
+        },
+        "checkin_time": "14:00:00",
+        "website_link": "http://www.rivierahotelmalta.com/",
+        "infoentity_id": 21649,
+        "dbl_rights": null,
+        "add_date": "2015-07-09 04:40:34.77274",
+        "has_wifi": true,
+        "checkout_time": "12:00:00",
+        "destination_id_override": -1,
+        "rooms": 250,
+        "id": 1391,
+        "destination_id": [
+          57745
+        ],
+        "telephone02": "",
+        "email": "info@riviera.com.mt",
+        "pin_rights": null,
+        "languages": [
+          {
+            "language": "en",
+            "name": "Riviera Resort & Spa",
+            "location_desc": "<p>The Riviera&nbsp; Resort&nbsp; is situated in&nbsp; Marfa, &nbsp;one of&nbsp; the&nbsp; most picturesque &nbsp;and charming &nbsp;bays in the north of Malta, just across the channel from the Islands of Gozo and Comino. The unique surroundings offer a quiet and relaxing location. The tranquil area is a haven for nature lovers and countryside walks. The shoreline boasts of the best swimming and diving spots around the islands. Paradise Bay and Mellieha Bay, the Island`s two largest sandy beaches can be found 1 km away. Gozo Ferry terminal is 1 km away can be reached by a short ride on the public transport or by a 30 minute walk from Riviera.</p>\r\n",
+            "facilities": "<p>Its quiet location, comfortable rooms, 1000m2 Thallasso Spa, two spacious outdoor and one heated indoor sea water swimming pools, bars and restaurants provide the best that Maltese hospitality, culture and environment have to offer. The Hotel also has a PADI approved Diving School offering various diving packages to numerous dive wrecks and diving sites found in the vicinity.<br />\r\n<br />\r\nThe Riviera Resort &amp; Spa - An Encounter in Style and Comfort&hellip;the perfect spot for your next business meeting.<br />\r\nPlanning and organising a successful event requires a great deal of attention to detail. The Riviera Resort &amp; Spa offers the right combination of location, expertise, flexibility and quality. Here you will discover a unique facility that mixes business with pleasure like no other Resort.</p>\r\n",
+            "fees_desc": "",
+            "policies": "",
+            "description": "<p>The Riviera Resort &amp; Spa is situated in one of the best-preserved and picturesque areas in the north of Malta, in a tranquil sea front location and next to a small beach studded with majestic date palms, facing the Islands of Comino and Gozo across a channel of blue shimmering water &ndash; simply idyllic!<br />\r\nIts quiet location, comfortable rooms, 1000m2 Thallasso Spa, two spacious outdoor and one heated indoor sea water swimming pools, bars and restaurants provide the best that Maltese hospitality, culture and environment have to offer. The Hotel also has a PADI approved Diving School offering various diving packages to numerous dive wrecks and diving sites found in the vicinity. The Riviera Resort &amp; Spa is ideal for exploring the islands with the Gozo ferry being only two bus stops away. Boats to Comino are available from the quay in the front of the Hotel. (summer months only). Malta&rsquo;s largest blue flag sandy beach and the town of Mellieha are also just a few bus stops away. A regular public bus service connects the resort to other towns including the capital Valletta and Sliema.&nbsp;</p>\r\n",
+            "rooms_desc": "<p>Most of&nbsp; the 250&nbsp;lavishly furnished&nbsp; guest rooms,&nbsp;including a&nbsp; number of superior rooms and suites, enjoy an enchanting view of the Mediterranean Sea and the islands of Comino and Gozo. Others enjoy views of the tranquil Maltese countryside or views of the bay. All rooms have air-conditioning and central heating, (Both heating and air-conditioning operate during restricted hours), satellite TV, direct dial telephone, mini bar, safety deposit box and ensuite bathroom complete with hairdryer. A choice of room types is available to suit our guests` special requirements, whether traveling on leisure or business. Family rooms with country or pool views, interconnecting twin rooms with pool views and rooms for the physically challenged are also available on request.</p>\r\n"
+          }
+        ],
+        "entity_has_paid_pins": false,
+        "dataset_id": 11120,
+        "has_restaurant": true,
+        "price_from": 84,
+        "booking_link": "http://www.booking.com/hotel/mt/barcelo-riviera-resort-spa.html"
+      },
+      {
+        "unique_id": 58790,
+        "amentities": [
+          {
+            "name": "Restaurant",
+            "id": 2
+          },
+          {
+            "name": "Air conditioning",
+            "id": 12
+          },
+          {
+            "name": "Free WiFi",
+            "id": 17
+          }
+        ],
+        "custom_images": [
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/3822/c17902410e3a4964a83a5fde8d8378fa-n_41 (1).jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": true,
+            "filename": "media/entities_hotels/3822/078182b2ab3b94c6f908719fe6048281-n_36.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/3822/fcec7c2c422a21709f448d33f3af2b0b-n_8.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/3822/40bf4b704f001dd911f64dc62644a006-n_33.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/3822/635dce8c01a581cb0d9a3e153fbf1ca7-n_23.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/3822/93f64d32b596cb469ad0af3d023991dc-n_40.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/3822/431b91ed778c80024ceb9cd69d1bca9a-n_12.jpg",
+            "size_300": true,
+            "size_800": false
+          }
+        ],
+        "edit_date": "2016-02-08 05:16:24.863124",
+        "countries_id": "ES",
+        "status": "ready",
+        "has_parking": true,
+        "show_paid_pins": false,
+        "price_to": 87,
+        "point": "0101000020E6100000FEFFFF7F6DD2E23F3DA70E743A4E4440",
+        "has_beach_front": false,
+        "category": 1,
+        "active": true,
+        "tiv_images": null,
+        "address": "Paseo Marítimo, s/n",
+        "telephone01": "+34977740462",
+        "expedia_link": "",
+        "tripadvisor_link": "http://www.tripadvisor.com.gr/Hotel_Review-g644333-d604392-Reviews-Hotel_Juanito_Platja-Sant_Carles_de_la_Rapita_Terres_de_l_Ebre_Province_of_Tarragona_Ca.html",
+        "weather": {
+          "airport_ref": "Lleida-Alguaire Airport (LEDA)",
+          "wind_speed": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LEDA_03.png",
+          "temperature": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LEDA_01.png",
+          "sunshine": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LEDA_04.png",
+          "humidity": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LEDA_02.png"
+        },
+        "checkin_time": "14:00:00",
+        "website_link": "http://www.juanitoplatja.com/",
+        "infoentity_id": 22480,
+        "dbl_rights": null,
+        "add_date": "2015-07-09 04:40:34.77274",
+        "has_wifi": true,
+        "checkout_time": "12:00:00",
+        "destination_id_override": -1,
+        "rooms": 35,
+        "id": 3822,
+        "destination_id": [
+          56191
+        ],
+        "telephone02": "",
+        "email": "hotel@juanitoplatja.com",
+        "pin_rights": null,
+        "languages": [
+          {
+            "language": "en",
+            "name": "Hotel Restaurant Juanito Platja",
+            "location_desc": "<p>Sant Carles de la R&agrave;pita is a fishing village located at the south of the province of Tarragona (about 180 km from Barcelona) between the Delta de l&rsquo;Ebre Natural Park and the Tortosa-Beceite Ports, both part of the Biosphere Reserve of the Ebre Lands. &nbsp;The Delta de l&rsquo;Ebre National Park is the largest wetland in Catalonia and one of the most important aquatic natural environment in Europe. With unique landscape variable depending on the season and a living nature, the Delta de l&rsquo;Ebre Natural Park and Els Ports Nature Reserve offer many leisure activities including river navigation, climbing, horse riding, cycling, golf, bird watching and all type of nautical sports in Els Alfacs Bay.&nbsp;This is the perfect destination to discover the magical places of El Delta de l&rsquo;Ebre!</p>\r\n",
+            "facilities": "<p>Different types of accommodation (breakfast and room, half board or full board) are available depending on the season. Our rich and varied house menus are elaborated with the finest seasonal and local products, committed to the traditional cuisine and served in a dining room over full sea view.&nbsp;Moreover, we offer free car-park and bar service and caf&eacute; in one of our outstanding terraces with immediate access to the private beachfront solarium and the sea.&nbsp;<br />\r\nOur guests will have the chance to enjoy our delicious dishes in a charming terrace placed next to the sea and under the pleasant shadow of our traditional mulberry trees.<br />\r\nOur A la Carte Menu provides Mediterranean cuisine specialized in cooking fresh fish, shellfish and tasty rice. All our dishes are prepared following traditional techniques and the best local and natural products available.&nbsp;</p>\r\n",
+            "fees_desc": "",
+            "policies": "",
+            "description": "<p>From 1960 our family runs this small welcoming hotel above the sea, located in a unique place in the area of Delta de l&rsquo;Ebre. An enchanting 35 room hotel with all guestrooms with private outdoor terraces overlooking the Bay of Sant Carles de la R&agrave;pita and the Mediterranean Sea.&nbsp;Our Mediterranean cuisine based on local fish, shellfish and rice will provide our guests with a fabulous gastronomic experience.&nbsp;You will enjoy an unforgettable stay after discovering our exceptional location, familiar and warm manner together with pleasant weather and a full leisure offer in its surroundings.</p>\r\n",
+            "rooms_desc": "<p>Located in the promenade of Sant Carles de la R&agrave;pita, the hotel has got 35 guestrooms with private terraces above the sea and beaches and are fully equipped with wood furniture, pleasant bathrooms, air conditioning and heating, TV as well as free WI-FI service available.</p>\r\n"
+          }
+        ],
+        "entity_has_paid_pins": false,
+        "dataset_id": 11404,
+        "has_restaurant": true,
+        "price_from": 48,
+        "booking_link": "http://www.booking.com/hotel/es/restaurant-juanito-platja.html"
+      },
+      {
+        "unique_id": 58791,
+        "amentities": [
+          {
+            "name": "Free WiFi in public areas",
+            "id": 43
+          },
+          {
+            "name": "Air conditioning",
+            "id": 12
+          },
+          {
+            "name": "Bar/lounge",
+            "id": 1
+          },
+          {
+            "name": "In-room safe",
+            "id": 14
+          },
+          {
+            "name": "Minibar",
+            "id": 13
+          },
+          {
+            "name": "Satellite TV / TV",
+            "id": 39
+          },
+          {
+            "name": "Restaurant",
+            "id": 2
+          },
+          {
+            "name": "Swimming Pool",
+            "id": 8
+          },
+          {
+            "name": "Massage",
+            "id": 31
+          }
+        ],
+        "custom_images": [
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4910/a71931b9f8d2df8aeedfa3849bb4a75f-1287.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4910/43efc11f22405745adf2aa72a51a5d6e-1292.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4910/5bb54f96d453cae9376e40c4ca65c998-1288.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": true,
+            "filename": "media/entities_hotels/4910/b735a29032aef06ef18b41b0f95b841a-1249.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4910/829c69beeebb8eac453e20efc0a0c748-1240.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4910/0bbbe5a4211fa225e7b496358d4e051c-1270.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4910/fc9e14878265749c3869502b128f2c02-1278.jpg",
+            "size_300": true,
+            "size_800": true
+          }
+        ],
+        "edit_date": "2016-02-08 05:16:24.863124",
+        "countries_id": "IT",
+        "status": "ready",
+        "has_parking": false,
+        "show_paid_pins": false,
+        "price_to": 0,
+        "point": "0101000020E6100000030000DCD892224022EC9CF7CC814440",
+        "has_beach_front": false,
+        "category": 4,
+        "active": true,
+        "tiv_images": null,
+        "address": "s.p. 137 Lago Del Liscia Km 4,700",
+        "telephone01": "+39079668026",
+        "expedia_link": "http://www.expedia.com/SantAntonio-Di-Gallura-Hotels-Aldiola-Country-Resort.h1778562.Hotel-Information",
+        "tripadvisor_link": "www.tripadvisor.com/Hotel_Review-g676339-d656262-Reviews-Aldiola_Country_Resort-Sant_Antonio_di_Gallura_Province_of_Olbia_Tempio_Sardinia.html",
+        "weather": {
+          "airport_ref": "Olbia Costa Smeralda (LIEO)",
+          "wind_speed": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIEO_03.png",
+          "temperature": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIEO_01.png",
+          "sunshine": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIEO_04.png",
+          "humidity": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIEO_02.png"
+        },
+        "checkin_time": "14:00:00",
+        "website_link": "http://www.aldiolacountry.com/en/hotel.html",
+        "infoentity_id": 22926,
+        "dbl_rights": null,
+        "add_date": "2015-07-09 04:40:34.77274",
+        "has_wifi": true,
+        "checkout_time": "12:00:00",
+        "destination_id_override": -1,
+        "rooms": 18,
+        "id": 4910,
+        "destination_id": [
+          52802
+        ],
+        "telephone02": "+393483830466",
+        "email": "aldiolainfo@gmail.com",
+        "pin_rights": null,
+        "languages": [
+          {
+            "language": "el",
+            "name": "Aldiola Country Resort",
+            "location_desc": "",
+            "facilities": "",
+            "fees_desc": "",
+            "policies": "",
+            "description": "",
+            "rooms_desc": ""
+          },
+          {
+            "language": "en",
+            "name": "Aldiola Country Resort",
+            "location_desc": "<p>The Aldiola Country Resort lies only 18 km from the sea, about 20 minutes from the Costa Smeralda. It is easy to reach from all the main ports and airports of Sardinia.</p>\r\n",
+            "facilities": "",
+            "fees_desc": "",
+            "policies": "",
+            "description": "<p>The Aldiola Country Resort, a delightful 4 star hotel on the Costa Smeralda, lies in the Mediterranean scrub surrounded by secular cork and holm oaks. It rises on the hills overlooking Lake Liscia.<br />\r\nThe 4 star hotel in Sardinia reflects the architectural features of the pastoral region of Gallura, with rooms arranged in characteristic buildings overlooking spectacular views of the lake. All areas are furnished in typical Sardinian style with an attentive choice of various woodwork, fabrics and ceramics produced by the finest craftsmen on the island.<br />\r\nThe Aldiola offers you a starting point for sports itineraries and impressive nature excursions.</p>\r\n",
+            "rooms_desc": "<p>Carefully furnished, embellished by local ceramics, in Sardinian style with: private bathroom, hairdryer, air conditioning, telephone, satellite TV, minibar, safe, veranda with a small living-room.</p>\r\n"
+          },
+          {
+            "language": "it",
+            "name": "Aldiola Country Resort",
+            "location_desc": "",
+            "facilities": "",
+            "fees_desc": "",
+            "policies": "",
+            "description": "",
+            "rooms_desc": ""
+          },
+          {
+            "language": "ru",
+            "name": "Aldiola Country Resort",
+            "location_desc": "",
+            "facilities": "",
+            "fees_desc": "",
+            "policies": "",
+            "description": "",
+            "rooms_desc": ""
+          },
+          {
+            "language": "tr",
+            "name": "Aldiola Country Resort",
+            "location_desc": "",
+            "facilities": "",
+            "fees_desc": "",
+            "policies": "",
+            "description": "",
+            "rooms_desc": ""
+          }
+        ],
+        "entity_has_paid_pins": false,
+        "dataset_id": 19415,
+        "has_restaurant": true,
+        "price_from": 0,
+        "booking_link": "http://www.booking.com/hotel/it/aldiola-country-resort.html"
+      },
+      {
+        "unique_id": 58793,
+        "amentities": [
+          {
+            "name": "Restaurant",
+            "id": 2
+          },
+          {
+            "name": "Tennis Court",
+            "id": 28
+          },
+          {
+            "name": "Spa",
+            "id": 19
+          },
+          {
+            "name": "Massage",
+            "id": 31
+          },
+          {
+            "name": "Fitness center",
+            "id": 29
+          },
+          {
+            "name": "Breakfast",
+            "id": 3
+          },
+          {
+            "name": "Conference Hall",
+            "id": 36
+          },
+          {
+            "name": "Swimming Pool",
+            "id": 8
+          },
+          {
+            "name": "Jacuzzi",
+            "id": 48
+          },
+          {
+            "name": "Kitchenette",
+            "id": 38
+          }
+        ],
+        "custom_images": [
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/5b07b96a416ee05123b34082cf7e2dd3-thumb_549__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/7efd3f0903d8686b66311dd3ea76f0a2-thumb_140__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/ebfcbdde3fdc31609e0f9c396c0f0196-thumb_142__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": true,
+            "filename": "media/entities_hotels/1994/4074ade737b678ab8034aa7b4dc2574a-thumb_147__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/e8b19918e8f46e8addc52be45380f47b-thumb_613__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/e283ef7d1ceac3cf0047f7e88edb545e-thumb_644__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/c9c255affc2a6c6f34b685ca96169707-thumb_607__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/668f4ddca3312ee9cfa61bbea763c739-thumb_224__slideshow_small.jpeg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/364b27a147045201a2b28c960f8eab05-thumb_148__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/649169740c5833a3895ea04b4cebf9ba-thumb_146__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/601e3c7f65e2b9574cce172731bbe5e6-thumb_600__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/fa4285413ad4637aef6dca3fc1bbbc6e-thumb_145__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/8a691799fef048584608abe7fa0014da-thumb_672__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/bade4dfdd06217b0f3e966888b392744-thumb_648__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/053e519820878e6eb8528f901446b020-thumb_675__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/1994/f1d812eb7d84fb2854e7b382aeb7cb91-thumb_151__slideshow_large.jpeg",
+            "size_300": true,
+            "size_800": true
+          }
+        ],
+        "edit_date": "2016-02-08 05:16:24.863124",
+        "countries_id": "FR",
+        "status": "ready",
+        "has_parking": false,
+        "show_paid_pins": false,
+        "price_to": 0,
+        "point": "0101000020E610000004000076515A1A40F6BFE0FE86984540",
+        "has_beach_front": false,
+        "category": 5,
+        "active": true,
+        "tiv_images": null,
+        "address": "Plage de Gigaro",
+        "telephone01": "+330494551515",
+        "expedia_link": "http://www.expedia.com/La-Croix-Valmer-Hotels-Chateau-De-Valmer.h1168947.Hotel-Information",
+        "tripadvisor_link": "http://www.tripadvisor.com.gr/Hotel_Review-g196676-d262076-Reviews-Chateau_de_Valmer-La_Croix_Valmer_French_Riviera_Cote_d_Azur_Provence.html",
+        "weather": {
+          "airport_ref": "La Môle Airport (LFTZ)",
+          "wind_speed": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LFTZ_03.png",
+          "temperature": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LFTZ_01.png",
+          "sunshine": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LFTZ_04.png",
+          "humidity": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LFTZ_02.png"
+        },
+        "checkin_time": "14:00:00",
+        "website_link": "http://www.chateauvalmer.com/",
+        "infoentity_id": 22918,
+        "dbl_rights": null,
+        "add_date": "2015-07-09 04:40:34.77274",
+        "has_wifi": true,
+        "checkout_time": "12:00:00",
+        "destination_id_override": -1,
+        "rooms": 42,
+        "id": 1994,
+        "destination_id": [
+          57835,
+          55207
+        ],
+        "telephone02": "",
+        "email": "info@chateauvalmer.com",
+        "pin_rights": null,
+        "languages": [
+          {
+            "language": "en",
+            "name": "Château de Valmer",
+            "location_desc": "",
+            "facilities": "<p>The restaurant:&nbsp;In the Andalusian garden or on the terrace facing the park, enjoydinner under the stars in an authentic lush green setting. Discover a menu rich in Provencal flavours including fish, seafood specialities and local dishes with herbs from the hills.<br />\r\nPools, park and Spa:&nbsp;At the heart of this five-hectare estate, the Ch&acirc;teau de Valmer Spa offers a pool-jacuzzi area without equal. More than a place of relaxation or a gym, it is an ode to relaxing mind and body the Provencal way. In warm restful tones enhanced by splashes of orange, the spa is a haven of peace and water features bathed in soft natural light. It opens onto the gardens and terraces, offering a five-star service and personalised coaching. Ideal for recharging your batteries for the long term.<br />\r\nGym:&nbsp;The gym offers all the comforts to be found with the latest, most effective equipment (Technogym, treadmills&hellip;). At your own pace or with a coach at a time that suits you, you can release all those muscular tensions, improve your posture and tone-up those abdominal and gluteal muscles. Make the most of your stay at Ch&acirc;teau de Valmer to do your favourite exercise in a unique, bright environment with a view of the herb garden. Cycling on the flat or tackling those peaks on the gym&rsquo;s bike is a perfect way to burn-up the calories!</p>\r\n",
+            "fees_desc": "",
+            "policies": "",
+            "description": "<p>Located in La Croix Valmer, a few kilometers from St Tropez, placed on the Gigaro beach in the heart of the Provencal countryside and close to the sea, the Ch&acirc;teau de Valmer, former mansion of a winery, is a beautiful charming country house, renovated, transformed, decorated with care and finesse in order not to obscure its former glory ...<br />\r\nLovers of refinement, nostalgics of a typical Art de Vivre, a paradise awaits you ...&nbsp;Find out in the same spirit, our second property, waterfront, The Pines Beach ...</p>\r\n",
+            "rooms_desc": "<p>Double Rooms:&nbsp;Double rooms (23m2), on the upper floor without balcony, campaign view or courtyard view. Bathroom with shower.&nbsp;Designed for optimal relaxation (King-size beds) in a chic and elegant Provencal style. Bathrooms with bath tub or shower.&nbsp;Capacity: 1 to 2 adults.<br />\r\n3 persons family rooms:&nbsp;Modern, uncluttered and very much in the Provencal spirit, the family rooms (33-38m2) are designed to be supremely comfortable, and can accommodate up to 3 people (1 King-size and 1 single bed).&nbsp;They are all upstairs with views over the garden, patio or car park, without balconyand, and consists in one double room and one single room.&nbsp;Bathroom with bath tub.<br />\r\nLes &Eacute;cureuils (Squirrels):&nbsp;Spend an unforgettable few days, and realise a childhood dream, living and sleeping up a tree in complete comfort.&nbsp;Perched in a century-old oak tree in the Ch&acirc;teau de Valmer park, 8m above the ground and totally safe, the treehouse (15m2) offers all the sophistication and comforts of a luxury hotel (Queen-size beds, bathroom, view over the vines, and a wooden terrace under the stars).&nbsp;A&nbsp;perfect spot for lovers.<br />\r\nLe Bastidon:&nbsp;With furnishings inspired by the fifties and sixties (designed by Charles Eames, Jield&eacute; lamps by Jean-Louis Domecq), a panoramic terrace and private corners, the Bastidon villa ( 150m2) can accommodate up to eight people: there is 4 double rooms, 3 bathrooms itted kitchen and living/dining room.&nbsp;The view is incredible. The sunset seen from the terrace is free.</p>\r\n"
+          }
+        ],
+        "entity_has_paid_pins": false,
+        "dataset_id": 11255,
+        "has_restaurant": true,
+        "price_from": 0,
+        "booking_link": "http://www.booking.com/hotel/fr/chateau-de-valmer.html"
+      },
+      {
+        "unique_id": 58794,
+        "amentities": [
+          {
+            "name": "Bar/lounge",
+            "id": 1
+          },
+          {
+            "name": "Restaurant",
+            "id": 2
+          },
+          {
+            "name": "Air conditioning",
+            "id": 12
+          },
+          {
+            "name": "Minibar",
+            "id": 13
+          },
+          {
+            "name": "In-room safe",
+            "id": 14
+          },
+          {
+            "name": "Room service",
+            "id": 15
+          },
+          {
+            "name": "Internet access",
+            "id": 16
+          },
+          {
+            "name": "Fitness center",
+            "id": 29
+          },
+          {
+            "name": "Breakfast",
+            "id": 3
+          },
+          {
+            "name": "Free WiFi",
+            "id": 17
+          },
+          {
+            "name": "Swimming Pool",
+            "id": 8
+          },
+          {
+            "name": "Satellite TV / TV",
+            "id": 39
+          }
+        ],
+        "custom_images": [
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/32a530c95a19d1287b0b421d478155f3-terraza_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/fbbb9f499aa4966590ba68e8372ed49d-penisola_sorrentina_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/1bea8a4022b1cad61892594778f6d8d7-piscina2_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/09d0ac7b51b098315d0caf807687954f-piscina4_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/be1f93f22f5a09345cef9c31906034f0-hallrosso_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/8f8cff166b89552637bce82409ece1b0-hall_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/012375472b8a3b67833f772d548bee7c-piscina5_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/58683a37190a0e3544ac7d68b4ae5507-entrada_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/bdae2f8a055a270871063b3056378805-camera_singola_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/e45e4802cf2dfedc481b1eb804a588f2-bagno_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/749a6fa6ebc4b0c75aae091c03f992b5-amarilla_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/b914074abb3195fe6fe804b77de134fe-piscina_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/9a26ef9c356150def954ac9432a39ef2-ristorante_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/e128e0ba7dabe494539c6fb3111a3d84-servicio_piscina_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": true,
+            "filename": "media/entities_hotels/5371/ff680ac9d5e9fb5758f70efa2d0d2760-singola_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/5371/9a36abdfe1caacc7d1d5ec89e7dc71d4-sor_gra.jpg",
+            "size_300": true,
+            "size_800": false
+          }
+        ],
+        "edit_date": "2016-02-08 05:16:24.863124",
+        "countries_id": "IT",
+        "status": "ready",
+        "has_parking": false,
+        "show_paid_pins": false,
+        "price_to": 1000,
+        "point": "0101000020E6100000E4FFFFC18D382D40B50FAD029A524440",
+        "has_beach_front": false,
+        "category": 4,
+        "active": true,
+        "tiv_images": null,
+        "address": "Via S. Chiara, 2",
+        "telephone01": "+390818781966",
+        "expedia_link": "http://www.expedia.com/Amalfi-Coast-Hotels-Villa-Maria-Hotel.h83499.Hotel-Information",
+        "tripadvisor_link": "http://www.tripadvisor.com.gr/Hotel_Review-g187782-d267009-Reviews-Hotel_Villa_Maria-Sorrento_Province_of_Naples_Campania.html",
+        "weather": {
+          "airport_ref": "Salerno Pontecagnano Airport (LIRI)",
+          "wind_speed": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIRI_03.png",
+          "temperature": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIRI_01.png",
+          "sunshine": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIRI_04.png",
+          "humidity": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIRI_02.png"
+        },
+        "checkin_time": "14:00:00",
+        "website_link": "http://www.hotelvillamaria.it/en/home.html",
+        "infoentity_id": 23413,
+        "dbl_rights": null,
+        "add_date": "2015-07-09 04:40:34.77274",
+        "has_wifi": true,
+        "checkout_time": "12:00:00",
+        "destination_id_override": -1,
+        "rooms": 23,
+        "id": 5371,
+        "destination_id": [
+          55679
+        ],
+        "telephone02": "+390818772302",
+        "email": "info@hotelvillamaria.it",
+        "pin_rights": null,
+        "languages": [
+          {
+            "language": "en",
+            "name": "Hotel Villa Maria",
+            "location_desc": "<p>Staying at the Hotel Villa Maria, in the heart of Sorrento city centre, means you can reach by foot in 5 minutes the central square Piazza Tasso. Here you shop in around the numerous stylish boutiques, or take a moment to relax in one the many local restaurants and bars in the area. Our location means that you are few steps away from the beaches of the Gulf of Naples and just 15 minutes by foot from the train station. During your stay, the staff of the hotel will be pleased to provide advice about the best places to see, and help organize guided excursions and trips to the most beautiful sites of Sorrento`s Peninsula. You will be able to discover the traditions and natural beauty found in this part of Italy, visiting the monuments of Naples, Positano, the islands of Capri and Ischia, as well as the archaeological treasures found at Pompei and Ercolano (just 50 minutes away).</p>\r\n",
+            "facilities": "<p>To make Sorrento the holiday of a lifetime, Hotel Villa Maria offers you all the very best services to allow you to enjoy the incomparable beauty found along the Campania Coast.</p>\r\n",
+            "fees_desc": "",
+            "policies": "",
+            "description": "<p>The Hotel Villa Maria is a modern, pleasant accommodation right in the heart of Sorrento, just few steps away from the seaside and the central Piazza Tasso. The hotel`s grand panoramic terrace provides spectacular views of the Volcano Vesuvius, and the open-air pool provides refreshment after bathing in the sun. Hotel Villa Maria The private restaurant serves all regional specialties and the hotel itself is the perfect place to discover the magic and beauty that Sorrento has to offer. A multilingual staff ensures that no matter where you are arriving from, your stay with us will be unforgettable.</p>\r\n",
+            "rooms_desc": "<p>Hotel Villa Maria offers its guests 90 rooms, nearly all looking over the sea and and the surrounding emerald green hills, while others have a special view on the Vesuvius volcano. Comfortable and bright, rooms are accented by the warm and bright colors typical of the Mediterranean landscape. Each is furnished in a modern style and equipped with private en-suite bathroom (either shower cubicle or bathtub).</p>\r\n"
+          }
+        ],
+        "entity_has_paid_pins": false,
+        "dataset_id": 19380,
+        "has_restaurant": true,
+        "price_from": 160,
+        "booking_link": "http://www.booking.com/hotel/it/villa-maria-ravello.html"
+      },
+      {
+        "unique_id": 58795,
+        "amentities": [
+          {
+            "name": "Bar/lounge",
+            "id": 1
+          },
+          {
+            "name": "Restaurant",
+            "id": 2
+          },
+          {
+            "name": "Spa",
+            "id": 19
+          },
+          {
+            "name": "Massage",
+            "id": 31
+          },
+          {
+            "name": "Breakfast",
+            "id": 3
+          },
+          {
+            "name": "Swimming Pool",
+            "id": 8
+          }
+        ],
+        "custom_images": [
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/c8276c6e1d6fe65c9eef722603327a1d-home_004_0.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/57095ce69a422f48928eebd7783f9f31-belfiore 014_001-1 (ostellato) [_dsc0001-0002-0003-0004-0005-0006-0007-0008_005-001]_2.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/ed30a1e047c27e944f22c710b60a5271-foto belfiore 2012 108.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/a28578e6e147dc0d33748792574c6696-foto belfiore 2012 280.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/46b28c602ac64009b355935f51e423b0-foto belfiore 2012 334_2.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/17fa703fb5ea6170a22159b5b43b5249-home_001_0.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/2ba0c88a6590efbb9b659ba8b6a8f85f-home_002_0.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/f37ed076caceae4dbfce2a59295d7118-home_003_0.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/f7182afb29f63c3068f636ba8918cf17-home_005_0.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/b8ee8eb404326e2de4f71d06d00cefbb-home_006_0.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/9ba20354d624a19e4e20df29f9371774-img_0305_3.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/cf7b7665c0e042e9008a9b780f85c070-resturant_001_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/a21b284ca0c1ac4015922358e6a0c141-resturant_002_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/4d8b20f9df832100da4dd37ed8b8d8d0-resturant_003_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4437/586296f087457fa5d15f81377b333896-resturant_005_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": true,
+            "filename": "media/entities_hotels/4437/a0f89b6f760c08fc7de5c8b57acfa9d7-foto belfiore 2012 203_0.jpg",
+            "size_300": true,
+            "size_800": true
+          }
+        ],
+        "edit_date": "2016-02-08 05:16:24.863124",
+        "countries_id": "IT",
+        "status": "ready",
+        "has_parking": false,
+        "show_paid_pins": false,
+        "price_to": 90,
+        "point": "0101000020E6100000FBFFFF8431E627404A6A80EE08604640",
+        "has_beach_front": false,
+        "category": 4,
+        "active": true,
+        "tiv_images": null,
+        "address": "Via Pioppa, 27",
+        "telephone01": "+390533681164",
+        "expedia_link": "http://www.expedia.com.my/Ostellato-Hotels-Villa-Belfiore.h2691346.Hotel-Information",
+        "tripadvisor_link": "http://www.tripadvisor.com.gr/Hotel_Review-g1054370-d631371-Reviews-Villa_Belfiore-Ostellato_Province_of_Ferrara_Emilia_Romagna.html",
+        "weather": {
+          "airport_ref": "Forli (LIPK)",
+          "wind_speed": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIPK_03.png",
+          "temperature": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIPK_01.png",
+          "sunshine": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIPK_04.png",
+          "humidity": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIPK_02.png"
+        },
+        "checkin_time": "14:00:00",
+        "website_link": "http://www.villabelfiore.com/en",
+        "infoentity_id": 22922,
+        "dbl_rights": null,
+        "add_date": "2015-07-09 04:40:34.77274",
+        "has_wifi": false,
+        "checkout_time": "12:00:00",
+        "destination_id_override": -1,
+        "rooms": 18,
+        "id": 4437,
+        "destination_id": [
+          57722
+        ],
+        "telephone02": "",
+        "email": "info@villabelfiore.com",
+        "pin_rights": null,
+        "languages": [
+          {
+            "language": "en",
+            "name": "Villa Belfiore",
+            "location_desc": "<p>The Villa Belfiore farm estate lies in the district of Ferrara and Ostellato, near the &ldquo;anse vallive&rdquo;, a humid area with fresh water, created by man after the land reclamation of the salmastra valley of Mezzano.</p>\r\n",
+            "facilities": "<p>Breakfast in the morning is a buffet where, as part of the feast, grandmother&rsquo;s jams and home-made tarts are a certainty as well as, when ripe, an array of home-produced fresh fruits. In the area around our swimming pool, between one swim and another, you may pick fruit directly from the trees (cherries, plums, peaches, figs, jujubes, medlars).</p>\r\n",
+            "fees_desc": "",
+            "policies": "",
+            "description": "<p>The Villa Belfiore farm estate lies in the district of Ferrara and Ostellato, near the &ldquo;anse vallive&rdquo;, a humid area with fresh water, created by man after the land reclamation of the salmastra valley of Mezzano. The vegetation is extremely important from a naturalistic point of view, here you can admire 150 species of birds. There is such vegetation as: small reeds and Cannucce di palude (reeds), and Giglio di palude (lilies), la Selcerella etc.</p>\r\n",
+            "rooms_desc": ""
+          }
+        ],
+        "entity_has_paid_pins": false,
+        "dataset_id": 19382,
+        "has_restaurant": true,
+        "price_from": 70,
+        "booking_link": "http://www.booking.com/hotel/it/villa-belfiore.html"
+      },
+      {
+        "unique_id": 58798,
+        "amentities": [
+          {
+            "name": "Bar/lounge",
+            "id": 1
+          },
+          {
+            "name": "Restaurant",
+            "id": 2
+          },
+          {
+            "name": "Dry cleaning/laundry service",
+            "id": 4
+          },
+          {
+            "name": "Airport transportation",
+            "id": 5
+          },
+          {
+            "name": "Beach bar",
+            "id": 7
+          },
+          {
+            "name": "Direct access to private beach",
+            "id": 10
+          },
+          {
+            "name": "Air conditioning",
+            "id": 12
+          },
+          {
+            "name": "In-room safe",
+            "id": 14
+          },
+          {
+            "name": "Room service",
+            "id": 15
+          },
+          {
+            "name": "Tennis Court",
+            "id": 28
+          },
+          {
+            "name": "Spa",
+            "id": 19
+          },
+          {
+            "name": "Massage",
+            "id": 31
+          },
+          {
+            "name": "Fitness center",
+            "id": 29
+          },
+          {
+            "name": "Breakfast",
+            "id": 3
+          },
+          {
+            "name": "Conference Hall",
+            "id": 36
+          },
+          {
+            "name": "Free WiFi",
+            "id": 17
+          },
+          {
+            "name": "24-hour Reception",
+            "id": 41
+          },
+          {
+            "name": "Rent a Car",
+            "id": 42
+          },
+          {
+            "name": "Swimming Pool",
+            "id": 8
+          },
+          {
+            "name": "Children playground",
+            "id": 45
+          },
+          {
+            "name": "Satellite TV / TV",
+            "id": 39
+          }
+        ],
+        "custom_images": [
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/b068e211c38c5099610f6e42394ee64e-presidential_suite_luxury_collection.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/4cd33be593ba9f0a1e49e67c0b6aa429-enchanting_sea_view_costa_smeralda_resort.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/786649f7dd713bd852dcf30edfb7f24a-cala_di_volpe_hotel_costasmeralda_exterior_view_2.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/aa5b9c4df2b134e16fdcae02654e55ba-pooo.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/e632394e1b85010abadb1eb12799c4b4-ppoo.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/148736fb26c7bff09e5253b495500036-ppooo.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/fb366bee615de9547bd82740a749884c-popoo.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/2a680b54ddb92ee4b6b43004df4bcbaa-cala_di_volpe_hotel_costasmeralda_bar_ilpontile_terrace.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/fd95e14436377d595743786b61afe036-poooo.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/a5010fffb8f2f1ad0685311b1763dc8c-poo.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/f852609c3b5804b0803070ef6161f00d-po.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/1b59f32a5bf48ac4bb9dd926abb49d54-presidential_suite_bathroom_hotel_cala_di_volpe.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": true,
+            "filename": "media/entities_hotels/4747/683e4abfec8bf6587bcd3f062aa01d13-2.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/49afc22608672dac15fa912647b1b73b-5.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/768acf12e7b2cf31752e511d2c95fa1c-3.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/7e9c552ff93c42a7682a49225dbab60b-cala_di_volpe_hotel_costasmeralda_restaurant_laterrazza.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/ea721ad37625728cf2b382d81a6199e7-cala_di_volpe_hotel_costasmeralda_suite_premium_bedroom_5.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4747/8e658f8be016a99bdb512f438855a560-4.jpg",
+            "size_300": true,
+            "size_800": true
+          }
+        ],
+        "edit_date": "2016-02-08 05:16:24.863124",
+        "countries_id": "IT",
+        "status": "ready",
+        "has_parking": true,
+        "show_paid_pins": false,
+        "price_to": 0,
+        "point": "0101000020E6100000020000087614234096221926928B4440",
+        "has_beach_front": false,
+        "category": 5,
+        "active": true,
+        "tiv_images": null,
+        "address": "Loc Cala di Volpe, Porto Cervo, Costa Smeralda",
+        "telephone01": "390789976111",
+        "expedia_link": "http://www.expedia.com/es/Costa-Smeralda-Olbia-Eastern-Sardinia-Hoteles-Hotel-Cala-Di-Volpe.h18048.Informacion-Hotel",
+        "tripadvisor_link": "http://www.tripadvisor.com/Hotel_Review-g945747-d195286-Reviews-Hotel_Cala_di_Volpe-Cala_di_Volpe_Province_of_Olbia_Tempio_Sardinia.html",
+        "weather": {
+          "airport_ref": "Olbia Costa Smeralda (LIEO)",
+          "wind_speed": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIEO_03.png",
+          "temperature": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIEO_01.png",
+          "sunshine": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIEO_04.png",
+          "humidity": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIEO_02.png"
+        },
+        "checkin_time": "14:00:00",
+        "website_link": "http://www.caladivolpe.com/",
+        "infoentity_id": 22763,
+        "dbl_rights": null,
+        "add_date": "2015-07-09 04:40:34.77274",
+        "has_wifi": true,
+        "checkout_time": "12:00:00",
+        "destination_id_override": -1,
+        "rooms": 121,
+        "id": 4747,
+        "destination_id": [
+          52802
+        ],
+        "telephone02": "",
+        "email": "caladivolpe@luxurycollection.com",
+        "pin_rights": null,
+        "languages": [
+          {
+            "language": "en",
+            "name": "Cala Di Volpe",
+            "location_desc": "<p>On the most strikingly romantic stretch of the Costa Smeralda, Hotel Cala di Volpe, a Luxury Collection Hotel, resembles a charming fishing village, with its picturesque Sardinian houses and landing stage jutting out into a sea of translucent turquoise, emerald green and deepest azure.</p>\r\n",
+            "facilities": "<p>Take the hotel boat to our private beach for a lazy day in the sun or make a splash at the water skiing school.<br />\r\nFor those who wish to keep in shape, along with enjoying exciting outdoor activities, there`s an Olympic sized saltwater swimming pool, three tennis courts and a gym, followed by a soothing massage at the wellness centre.<br />\r\nThe Cala di Volpe Restaurant for a romantic candlelit supper; the Pool Bar for a cooling drink or tasty snack; the Pontile Piano Bar and the Lobby Bar, both with panoramic view of Cala di Volpe bay; the Barbecue, for delicious grills of fresh Sardinian seafood, the perfect venue for chic gala dinners or banquet.<br />\r\nStay at Hotel Cala di Volpe on full board and indulge in a rich breakfast, unforgettable lunch at Barbecue Restaurant&nbsp;cooled by the breeze from the bay, and dinner at Cala di Volpe gourmet restaurant, savoring culinary creations of traditional Sardinian and Mediterranean cuisine.&nbsp;This way you can also pursue your instinct of discovery and try dine around. &nbsp; &nbsp;<br />\r\nOtherwise, a half-board stay includes breakfast and, at your choice, lunch at our Barbecue Restaurant by the pool or dinner in the magic atmosphere of the Cala di Volpe Restaurant.<br />\r\nChoose the Hotel Cala di Volpe for your most important meetings and events, and experience an unrivalled location of extraordinary spaces and exquisite amenities.<br />\r\nFor over 50 years we have been creating elegant and inimitable marriages. Each wedding is unique, as distinctive as the island that hosts it: a destination to be bound to forever. The setting for unforgettable films and photoshoots, Costa Smeralda is the ideal location for the perfect wedding. In any season.<br />\r\nBoat Rental.<br />\r\nFrom the comfort of your deck chair, delight in uninterrupted views of the magnificent fleet of yachts floating in the emerald sea.The wide stretch of ultra fine sand is dotted with large beach umbrellas, providing ample shade from the dazzling sun. Take a dip in the glorious ocean water&mdash; a perfect 25 degrees Celsius in the height of summer&mdash;and return to a pile of plush beach towels provided for each guest. The beach cabana bar serves cooling soft drinks, juices, and water from 9:30am to 6pm every day.<br />\r\nPrivate bathroom and shower facilities are located directly on the beach, and a lifeguard is in attendance at all times.</p>\r\n",
+            "fees_desc": "",
+            "policies": "<p>Check in: 2:00 PM &nbsp; &nbsp;<br />\r\nCheck out: 12:00 PM</p>\r\n",
+            "description": "<p>On the most strikingly romantic stretch of the Costa Smeralda, Hotel Cala di Volpe, a Luxury Collection Hotel, resembles a charming fishing village, with its picturesque Sardinian houses and landing stage jutting out into a sea of translucent turquoise, emerald green and deepest azure.<br />\r\nEach of the 100 sea-view rooms and 21 suites pays tribute to Sardinia`s unique artistry and natural beauty. Balconies and patios offer breathtaking panoramic views of the ever changing blues of sky and sea. The minimal chic decor is inspired by traditional Sardinian workmanship, using local stone and decorated tiles in vibrant Mediterranean colours.<br />\r\nAnd for an even more exclusive ambience, the Presidential Suite, with three bedrooms, two lounges, sauna and private swimming pool.</p>\r\n",
+            "rooms_desc": "<p>A heaven of thoughtful comforts and exquisite local design, each of the 121 rooms and suites at Hotel Cala di Volpe celebrate the region`s natural beauty and superb Sardinian artistry.</p>\r\n"
+          }
+        ],
+        "entity_has_paid_pins": false,
+        "dataset_id": 19415,
+        "has_restaurant": true,
+        "price_from": 0,
+        "booking_link": "http://www.booking.com/hotel/it/cala-di-volpe.html"
+      },
+      {
+        "unique_id": 58799,
+        "amentities": [
+          {
+            "name": "Bar/lounge",
+            "id": 1
+          },
+          {
+            "name": "Restaurant",
+            "id": 2
+          },
+          {
+            "name": "Air conditioning",
+            "id": 12
+          },
+          {
+            "name": "Minibar",
+            "id": 13
+          },
+          {
+            "name": "Internet access",
+            "id": 16
+          },
+          {
+            "name": "Breakfast",
+            "id": 3
+          },
+          {
+            "name": "Free WiFi",
+            "id": 17
+          }
+        ],
+        "custom_images": [
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": true,
+            "filename": "media/entities_hotels/4485/a331fa5415fc2d1ea092be2d70932e8e-phoca_thumb_l_camera20.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4485/886afd647b9cd34110938a1958c3eebc-phoca_thumb_l_camera21.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4485/5f696fbf8da6067245102b524131c778-phoca_thumb_l_camera15.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4485/53c17a661ff6c9f7505fc80f901956c1-phoca_thumb_l_camera14.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4485/a0e552d238653cd81bb12c7cc681389f-phoca_thumb_l_p1010003.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4485/031af7c07c1cd0a954e5c420b4e52e7d-phoca_thumb_l_servizi1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4485/26454c1d504f0ed2952b434841d923f3-phoca_thumb_l_camera18.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4485/dec7311ccc45463bd83cbbcfdd741782-phoca_thumb_l_camera17.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4485/a17b7a201b8a5e58148cd04bd4a53570-phoca_thumb_l_camera16.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4485/3eed68e7ab41c455e32ee7d2aa28fc93-phoca_thumb_l_servizi2.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4485/ec4112efd708d7fc056c065e5327077c-phoca_thumb_l_servizi3.jpg",
+            "size_300": true,
+            "size_800": false
+          }
+        ],
+        "edit_date": "2016-02-08 05:16:24.863124",
+        "countries_id": "IT",
+        "status": "ready",
+        "has_parking": false,
+        "show_paid_pins": false,
+        "price_to": 170,
+        "point": "0101000020E610000002280099815F3240C0675088C4064440",
+        "has_beach_front": false,
+        "category": 4,
+        "active": true,
+        "tiv_images": null,
+        "address": "Viale della Repubblica 49",
+        "telephone01": "0836909003",
+        "expedia_link": "http://www.expedia.com/Poggiardo-Hotels-PandAmuri-Hotel.h2388610.Hotel-Information",
+        "tripadvisor_link": "http://www.tripadvisor.com.gr/Hotel_Review-g1024144-d1049585-Reviews-Pand_Amuri-Poggiardo_Province_of_Lecce_Puglia.html",
+        "weather": {
+          "airport_ref": "Lecce (LIBN)",
+          "wind_speed": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIBN_03.png",
+          "temperature": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIBN_01.png",
+          "sunshine": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIBN_04.png",
+          "humidity": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIBN_02.png"
+        },
+        "checkin_time": "14:00:00",
+        "website_link": "http://www.pandamuri.it/index.php",
+        "infoentity_id": 22928,
+        "dbl_rights": null,
+        "add_date": "2015-07-09 04:40:34.77274",
+        "has_wifi": true,
+        "checkout_time": "12:00:00",
+        "destination_id_override": -1,
+        "rooms": 34,
+        "id": 4485,
+        "destination_id": [
+          56152
+        ],
+        "telephone02": "08361950190",
+        "email": "info@pandamuri.it",
+        "pin_rights": null,
+        "languages": [
+          {
+            "language": "en",
+            "name": "Pand`Amuri",
+            "location_desc": "<p>The&nbsp; Hotel Pand`Amuri is situated few mins walk from the town`s centre and 6 km from the seaside.</p>\r\n",
+            "facilities": "<p>For the Children`s delight the hotel has a swimming pool (size 4m x 3m) with outdoor shower and night lighting. Another feature of THE HOTEL is the &quot;Roof Garden&quot; where guests can relax in the sun or drink an aperitif before lunch or dinner.</p>\r\n",
+            "fees_desc": "",
+            "policies": "",
+            "description": "",
+            "rooms_desc": "<p>Our 34 sound-proof bedrooms provide the best facilities for the leisure traveller or businessman. Direct-dial Telephones, adsl wireless access (free), satellite TV, minibar, a/c with automatic temperature control, safety box and spacious bathrooms are standard comfort in every bedroom.</p>\r\n"
+          }
+        ],
+        "entity_has_paid_pins": false,
+        "dataset_id": 19367,
+        "has_restaurant": true,
+        "price_from": 50,
+        "booking_link": "http://www.booking.com/hotel/it/pand-amuri.html"
+      },
+      {
+        "unique_id": 58800,
+        "amentities": [
+          {
+            "name": "Bar/lounge",
+            "id": 1
+          },
+          {
+            "name": "Restaurant",
+            "id": 2
+          },
+          {
+            "name": "Dry cleaning/laundry service",
+            "id": 4
+          },
+          {
+            "name": "Air conditioning",
+            "id": 12
+          },
+          {
+            "name": "Minibar",
+            "id": 13
+          },
+          {
+            "name": "In-room safe",
+            "id": 14
+          },
+          {
+            "name": "Room service",
+            "id": 15
+          },
+          {
+            "name": "Internet access",
+            "id": 16
+          },
+          {
+            "name": "Fitness center",
+            "id": 29
+          },
+          {
+            "name": "Breakfast",
+            "id": 3
+          },
+          {
+            "name": "Conference Hall",
+            "id": 36
+          },
+          {
+            "name": "Free WiFi",
+            "id": 17
+          },
+          {
+            "name": "24-hour Reception",
+            "id": 41
+          },
+          {
+            "name": "Satellite TV / TV",
+            "id": 39
+          }
+        ],
+        "custom_images": [
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/b0a113fb63bb0fa50232086c824a14d3-sav13_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/22d0622201e8ca7d9cd735be779dde96-sav12.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/b29dffeb149e5f03bfe20c9c52522123-sav10_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/9a24b4e66ce2d6d5fd44797eeaf5041a-ristorante-sera_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": true,
+            "filename": "media/entities_hotels/4482/d872abc21d10a5d7b6a77df7ef0f5711-area-meeting.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/2255d2013a1832ef611cdd5172a9ced1-meetinga.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/35c1a85412a9935c686bbbc6ae7ca539-matstandard.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/5a70851333be83e781ce1322b95ec6d7-matrimonialesuper.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/9de17f4c9e915444dff43de4b31b7f0f-hall.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/b4f729efb988fb2b76667ec217c7d422-colazione-1_1_2.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/abb4d313df8b69a38d06671e3a711f7b-boardroom_1_2.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/c606999daea485342225c531114b74e6-bar_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/78c353f287b68e28ebf2d6648df59680-banchiscuola_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/58fd58ee455c052a9c163e213d1c1f17-salotto_1_2.jpg",
+            "size_300": true,
+            "size_800": true
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/8428541f71f40875dcabd28f5fae1dd9-bagnovasca_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/54f0d692c196bfd2d5d4badaa10eb347-bagno-doccia_1_2_3.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/396da05d5660c1b64aabaa1b545da71f-zona-fitness_1.jpg",
+            "size_300": true,
+            "size_800": false
+          },
+          {
+            "prefix": "https://d2wzo7cpkz5upz.cloudfront.net/",
+            "default_image": false,
+            "filename": "media/entities_hotels/4482/b728486706ce7dc84ccb5368254181d3-savhotel-esterno-2_1.jpg",
+            "size_300": true,
+            "size_800": false
+          }
+        ],
+        "edit_date": "2016-02-08 05:16:24.863124",
+        "countries_id": "IT",
+        "status": "ready",
+        "has_parking": false,
+        "show_paid_pins": false,
+        "price_to": 600,
+        "point": "0101000020E6100000E8FFFF8346B526405BA24909A0414640",
+        "has_beach_front": false,
+        "category": 4,
+        "active": true,
+        "tiv_images": null,
+        "address": "Via F. Parri 9",
+        "telephone01": "051361361",
+        "expedia_link": "http://www.expedia.com/Bologna-Hotels-Savhotel.h1414706.Hotel-Information",
+        "tripadvisor_link": "http://www.tripadvisor.com.gr/Hotel_Review-g187801-d601493-Reviews-SavHotel-Bologna_Province_of_Bologna_Emilia_Romagna.html",
+        "weather": {
+          "airport_ref": "Bologna (LIPE)",
+          "wind_speed": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIPE_03.png",
+          "temperature": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIPE_01.png",
+          "sunshine": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIPE_04.png",
+          "humidity": "https://a248.e.akamai.net/f/248/126683/365d/geotagstatic.edgesuite.net/weather_v1/LIPE_02.png"
+        },
+        "checkin_time": "14:00:00",
+        "website_link": "http://www.savhotel.com/eng/index.html",
+        "infoentity_id": 22929,
+        "dbl_rights": null,
+        "add_date": "2015-07-09 04:40:34.77274",
+        "has_wifi": true,
+        "checkout_time": "12:00:00",
+        "destination_id_override": -1,
+        "rooms": 120,
+        "id": 4482,
+        "destination_id": [],
+        "telephone02": "",
+        "email": "info@savhotel.it",
+        "pin_rights": null,
+        "languages": [
+          {
+            "language": "en",
+            "name": "Savhotel",
+            "location_desc": "<p>Lying less than one kilometre from the Motorway and Ring-Road and 10 minutes from the G. Marconi International Airport of Bologna, it is the ideal choice for businessmen as well as international tourists, thanks to its proximity to the historical centre and the Central Station, which you can reach in 5 minutes by bus.</p>\r\n",
+            "facilities": "",
+            "fees_desc": "",
+            "policies": "",
+            "description": "<p>Savhotel is a four-star hotel in Bologna with a modern and minimalist style, a short distance from the Bologna Fair District and the Congress Palace.</p>\r\n",
+            "rooms_desc": "<p>120 spacious elegant rooms, highly comfortable beds, modern parquet, soft white bedspreads, bathrooms with wood and glass fittings, &ldquo;light cubes&rdquo; replacing the traditional bedside tables and much more, all designed to ensure you enjoy a pleasant relaxing stay.</p>\r\n"
+          }
+        ],
+        "entity_has_paid_pins": false,
+        "dataset_id": 19381,
+        "has_restaurant": true,
+        "price_from": 53.1,
+        "booking_link": "http://www.booking.com/hotel/it/savhotel.html"
+      }
+    ]
+  }
+}
