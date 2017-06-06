@@ -43,25 +43,21 @@ def retrieve_data(data, header):
     dict_data = {}
 
     if isinstance(data, dict):
-        for key, value in data.items():
-            if key == header:
-                if isinstance(value, dict):
-                    dict_data.update(value)
-                elif isinstance(value, list):
+        if header in data.keys():
+            dict_data.update({header: data[header]})
+        else:
+            for key, value in data.items():
+                if isinstance(value, list):
                     if value:
-                        dict_data.update(value[0])
+                        list_data = retrieve_data(value[0], header)
+                        dict_data.update(list_data)
                     else:
-                        dict_data.update({key: value})
-                else:
-                    dict_data.update({key: value})
-            else:
-                if value:
-                    dict_data.update(retrieve_data(value, header))
-                else:
-                    dict_data.update({header: value})
+                        dict_data.update({header: value})
+                elif isinstance(value, dict):
+                    sub_data = retrieve_data(value, header)
+                    dict_data.update(sub_data)
     elif isinstance(data, list):
         dict_data.update(retrieve_data(data[0], header))
-
     return dict_data
 
 
@@ -79,8 +75,7 @@ def get_save_data(retrieved_data, headers):
         dict_data = {}
         for header in headers:
             data = retrieve_data(retrieved_data, header)
-            if data:
-                dict_data.update(data)
+            dict_data.update(data)
         csv_data.append(dict_data)
     elif isinstance(retrieved_data, list):
         item = []
@@ -90,7 +85,6 @@ def get_save_data(retrieved_data, headers):
                 dict_data.update(retrieve_data(data, header))
             item.append(dict_data)
         csv_data = item
-
     return csv_data
 
 
