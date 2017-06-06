@@ -78,7 +78,9 @@ def get_save_data(retrieved_data, headers):
     if isinstance(retrieved_data, dict):
         dict_data = {}
         for header in headers:
-            dict_data.update(retrieve_data(retrieved_data, header))
+            data = retrieve_data(retrieved_data, header)
+            if data:
+                dict_data.update(data)
         csv_data.append(dict_data)
     elif isinstance(retrieved_data, list):
         item = []
