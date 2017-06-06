@@ -11,7 +11,7 @@ class CoreTestCase(BaseARSTestCase):
         self.list_search = {"~": ['id', 'name', 'zip_code']}
 
         self.single_sub_search = {"data": [{"records": [{"weather": ['airport_ref']}, {"languages": ['name']}]}]}
-        self.list_sub_search = {"~": [{"users": ['user_id']}, {'attrs': [{'prices': ['max_price']}]}]}
+        self.list_sub_search = {"~": [{"users": ['user_id']}, {'attrs': [{'prices': ['max_price']}]}, "name"]}
 
         self.single_search_key_doesnt_exist = {"data": [{"records": ['foo', 'status', 'address']}, 'total']}
         self.list_search_key_doesnt_exist = {"~": ['bar', 'name', 'zip_code']}
@@ -133,11 +133,37 @@ class CoreTestCase(BaseARSTestCase):
         self.assertEqual(first_element['unique_id'], 58788)
 
         # -- Test export single json response to csv functionality --
-        # response = retrieve_data(api_url=self.service_api, search=self.single_search, mode='csv', csv_file_name='output')
-        # print(response)
-        #
-        # # -- Test export list json response to csv functionality --
-        # response = retrieve_data(api_url=self.cms_api, credentials=self.credentials, search=self.list_search,
-        #                          mode='csv',
-        #                          csv_file_name='output')
-        # print(response)
+        response = retrieve_data(api_url=self.service_api, search=self.single_search, mode='csv',
+                                 csv_file_name='output')
+
+        # Check if csv contains total column
+        self.assertEqual(response[0]['total'], 4119)
+
+        # -- Test export list json response to csv functionality --
+        response = retrieve_data(api_url=self.cms_api, credentials=self.credentials, search=self.list_search,
+                                 mode='csv',
+                                 csv_file_name='output')
+
+        # Check if first item in csv contains the name column
+        self.assertEqual(response[0]['name'], 'St.Thomas Villas Resort')
+
+        # Check if second item in csv contains the name column
+        self.assertEqual(response[1]['name'], 'Monambeles Villas')
+
+        # -- Test export list with sub data to csv functionality --
+        response = retrieve_data(api_url=self.cms_api, credentials=self.credentials, search=self.list_sub_search,
+                                 mode='csv',
+                                 csv_file_name='output')
+
+        # Check if first item in csv contains the max_price column
+        self.assertEqual(response[0]['max_price'], 2.0)
+
+        # Check if first item doesnt have user
+        self.assertEqual(response[0]['user_id'], [])
+
+        # -- Test if we give unknown mode that returns only the processed data --
+        response = retrieve_data(api_url=self.service_api, search=self.single_search, mode='foo',
+                                 csv_file_name='output')
+
+        # Check if processed data contains total
+        self.assertEqual(response['total'], 4119)
