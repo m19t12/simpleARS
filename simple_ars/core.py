@@ -1,3 +1,4 @@
+# coding=utf-8
 import logging
 
 from simple_ars import core_utils, search_object, extraction
@@ -20,21 +21,22 @@ def search_and_retrieve(data, select_keys, from_key=""):
     :return: return a dictionary item with the data we want to get
     """
     dict_item = {}
-    if len(select_keys) != 0:
-        for key in select_keys:
-            if isinstance(key, dict):
-                search = search_object.SearchObject(key)
-                if isinstance(data[search.src_from], list):
-                    dict_item[search.src_from] = retrieve_list_data(data[search.src_from], search)
+    if data:
+        if len(select_keys) != 0:
+            for key in select_keys:
+                if isinstance(key, dict):
+                    search = search_object.SearchObject(key)
+                    if isinstance(data[search.src_from], list):
+                        dict_item[search.src_from] = retrieve_list_data(data[search.src_from], search)
+                    else:
+                        dict_item[search.src_from] = retrieve_sub_data(data, search)
                 else:
-                    dict_item[search.src_from] = retrieve_sub_data(data, search)
-            else:
-                if key in data:
-                    dict_item[key] = data[key]
-                else:
-                    dict_item[key] = None
-    else:
-        dict_item[from_key] = data
+                    if key in data:
+                        dict_item[key] = data[key]
+                    else:
+                        dict_item[key] = None
+        else:
+            dict_item[from_key] = data
     return dict_item
 
 
@@ -110,13 +112,12 @@ def retrieve_data(api_url, search, credentials=None, mode="return", csv_file_nam
 
     retrieved_data = ars(api_response, search)
 
-    if mode == "csv":
+    if mode == 'csv':
         logger.info("CSV Extraction")
-        extraction.csv_extraction(retrieved_data, search, csv_file_name)
-    elif mode == "return":
-        logger.info("Return Data")
+        return extraction.csv_extraction(retrieved_data, search, csv_file_name)
+    elif mode == 'return':
+        return retrieved_data
     else:
         logger.warning("Unknown mode.Enabling default mode return data")
         logger.info("Return Data")
-
-    return retrieved_data
+        return retrieved_data
