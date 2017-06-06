@@ -1,11 +1,9 @@
 # coding=utf-8
-import logging
-
-from simple_ars import core_utils, search_object, extraction
+from simple_ars import search_object
 
 __authors__ = 'Manolis Tsoukalas'
 __date__ = '2017-1-3'
-__version__ = '0.5'
+__version__ = '0.7'
 
 """
 simpleARS core functionality for retrieving data
@@ -92,32 +90,3 @@ def ars(api_response, search):
     else:
         raise TypeError("Wrong Type Response!!! Response must be list or dict not {}".format(type(api_response)))
     return retrieved_data
-
-
-def retrieve_data(api_url, search, credentials=None, mode="return", csv_file_name="csv_output"):
-    """
-    facade method for retrieving data.
-    takes attributes a url a search json and mode for extraction
-    :param api_url: url for the endpoint which you want to retrieve data
-    :param search: search object in dictionary format
-    :param credentials: json for the username and password, if the endpoint is password protected
-    :param mode: the mode you want to extract the data. default mode is return data
-    :param csv_file_name: the name of the output file
-    :return: the extracted data
-    """
-
-    logging.basicConfig(level=logging.INFO)
-    logger = logging.getLogger(__name__)
-    api_response = core_utils.load_api_response(api_url, credentials)
-
-    retrieved_data = ars(api_response, search)
-
-    if mode == 'csv':
-        logger.info("CSV Extraction")
-        return extraction.csv_extraction(retrieved_data, search, csv_file_name)
-    elif mode == 'return':
-        return retrieved_data
-    else:
-        logger.warning("Unknown mode.Enabling default mode return data")
-        logger.info("Return Data")
-        return retrieved_data

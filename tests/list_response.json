@@ -1,186 +1,414 @@
 [
   {
-    "id": 70029,
-    "name": "Villa kato alepochori",
-    "description": "<p>test <strong>villa kato alepochori</strong></p>",
-    "address": "no address",
-    "zip_code": "0",
-    "phone_number_1": "0",
-    "phone_number_2": "0",
-    "website": null,
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [
-      {
-        "id": 70018,
-        "name": "kichen",
-        "description": "<p>Kitchen&nbsp;</p>"
-      },
-      {
-        "id": 70012,
-        "name": "has_parking",
-        "description": "<p>parking</p>"
-      },
-      {
-        "id": 70013,
-        "name": "has_wifi",
-        "description": "<p>wifi</p>"
-      },
-      {
-        "id": 70014,
-        "name": "cable_tv",
-        "description": "<p>cable television</p>"
-      }
-    ],
-    "attrs": null,
-    "date_created": "2017-05-03T12:56:49.291639Z",
-    "modified_date": "2017-05-03T12:56:49.291660Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.0746177",
-      "longitude": "23.17496230000006"
-    },
-    "image_pins": [],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Megara (LGMG)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGMG_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGMG_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGMG_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGMG_02.png"
-    }
-  },
-  {
-    "id": 70023,
-    "name": "Corfu Pallace",
-    "description": "<p>Palace&nbsp;<strong>dedede&nbsp;</strong></p>",
-    "address": "no address",
-    "zip_code": "0",
-    "phone_number_1": "0",
-    "phone_number_2": "0",
-    "website": null,
+    "id": 70546,
+    "name": "St.Thomas Villas Resort",
+    "description": "<p>St.Thomas Villas resort&nbsp;is an elegant complex of seven luxurious villas with private pool and garden,built at different levels in the &quot;rock&quot;of&nbsp;St.Thomas&nbsp;in a environment of special beauty and tranquility.&nbsp;Large areas covered with grass and palm trees,flower beds blooming with hundreds of roses to scent and fantastic sea and mountain view.&nbsp;The villas with elegant aesthetic,its dinstictive Mediterranean architecture and modern facilities give visitors the oportunity to live the ultimate holidays experience with claims.&nbsp;Each villa has its own unique decor,private garden with lawn and private pool.&nbsp;With dedication to high standards of hospitality we have created a warm and elegant environment allowing&nbsp;St.Thomas Villas resort&nbsp;to be the perfect choice for couples,friends and families.</p>\r\n\r\n<p><span style=\"color:#003d79\">Location Description</span></p>\r\n\r\n<p>St.Thomas&nbsp;is the coastal area of the picturesque village&nbsp;Karavados,&nbsp;with yards full of flowers, where there is the church of Saints Konstantinos &amp; Elenis with the only marble iconostasis on the island.</p>",
+    "address": "St.Thomas, Karavados, Kefalonia",
+    "zip_code": "28083",
+    "phone_number_1": "+302671022763",
+    "phone_number_2": "+306973855311",
+    "website": "http://www.kefaloniaprivatevillas.com/",
     "service_type": 1,
     "users": [],
     "amenities": [
       {
-        "id": 70013,
-        "name": "has_wifi",
-        "description": "<p>wifi</p>"
+        "id": 70011,
+        "name": "Air conditioning",
+        "description": ""
       },
       {
-        "id": 70014,
-        "name": "cable_tv",
-        "description": "<p>cable television</p>"
+        "id": 70024,
+        "name": "Swimming Pool",
+        "description": ""
       },
       {
-        "id": 70012,
-        "name": "has_parking",
-        "description": "<p>parking</p>"
+        "id": 70026,
+        "name": "Internet access",
+        "description": ""
+      },
+      {
+        "id": 70044,
+        "name": "Satellite TV / TV",
+        "description": ""
       }
     ],
     "attrs": {
       "rooms": 3,
       "prices": {
-        "max_price": 173.0,
-        "min_price": 15.0
+        "max_price": 2.0,
+        "min_price": 1.0
       },
-      "house_rules": "No rules",
-      "availability": {
+      "house_rules": "not provided",
+      "minimum_stay": {
         "min_availability": 4
       },
-      "safety_features": "None"
+      "safety_features": "not provided",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2,
+      "max_number_of_persons_to_sleep": 4
     },
-    "date_created": "2017-05-02T16:04:48.506310Z",
-    "modified_date": "2017-05-03T13:06:57.648592Z",
-    "country": "gr",
+    "date_created": "2017-06-02T11:16:07.605104Z",
+    "modified_date": "2017-06-02T11:17:15.924426Z",
+    "country": "GR",
     "is_active": true,
     "polygon": null,
     "point": {
-      "latitude": "39.6192261",
-      "longitude": "19.92287620000002"
+      "latitude": "38.11516979999999",
+      "longitude": "20.597476599999936"
     },
     "image_pins": [
       {
-        "id": 70024,
-        "top": 0.418402777777778,
-        "left": 0.498046875,
-        "image_id": "1078970935509256062",
+        "id": 70558,
+        "top": 0.536259399520026,
+        "left": 0.506459534168243,
+        "image_id": "20411",
         "entity_ads_url": null,
         "show_paid_pins": true,
         "entity_has_paid_pins": false
+      },
+      {
+        "id": 70559,
+        "top": 0.0866066217422485,
+        "left": 0.426381409168243,
+        "image_id": "20647",
+        "entity_ads_url": null,
+        "show_paid_pins": true,
+        "entity_has_paid_pins": false
+      },
+      {
+        "id": 70560,
+        "top": 0.0866066217422485,
+        "left": 0.426381409168243,
+        "image_id": "20647",
+        "entity_ads_url": null,
+        "show_paid_pins": true,
+        "entity_has_paid_pins": false
+      }
+    ],
+    "images": [
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/7cda619762079009063b2725a4abf7cb-index_120.jpg",
+        "id": 70547
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/8f160235cf9dc0bcae37b22e3879c776-index_117.jpg",
+        "id": 70548
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/24f0e5c40e8f6280aa1556d721a66b33-1_3l.jpg",
+        "id": 70549
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/79ca0869365a8a3b43ad5272f6049096-index_166.jpg",
+        "id": 70550
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/302d47e025fcc2ff358502d90de69368-7_61l.jpg",
+        "id": 70551
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/0832f4029135e4fe690837208b6ae6a0-index_165.jpg",
+        "id": 70552
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/315914be0e38cb3d2f1f58dac575f21e-index_164.jpg",
+        "id": 70553
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/aedf0f649882c87f0fc2628bb0925b5d-index_156.jpg",
+        "id": 70554
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/ba8c1f53fb330c4d650ef7279770c49f-5_20l.jpg",
+        "id": 70555
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/df428d5080ad10abf9fb4c1b735515b2-index_121.jpg",
+        "id": 70556
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70546/f5a9f25ce25481c20707557f55e20ba5-index_119.jpg",
+        "id": 70557
+      }
+    ],
+    "weather_info": {
+      "airport_ref": "Kefallinia (LGKF)",
+      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKF_03.png",
+      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKF_01.png",
+      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKF_04.png",
+      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKF_02.png"
+    }
+  },
+  {
+    "id": 70561,
+    "name": "Monambeles Villas",
+    "description": "<p>A holiday on the Monambeles Villas close to nature and with all facilities and comfort will be unforgettable for you to spend vacations, differently then usual in a hotels - apartments - studios of&nbsp;Kefalonia, Greece.</p>\r\n\r\n<p><span style=\"color:#003d79\">rooms description</span></p>\r\n\r\n<p>The attractive houses of monambeles villas with a wonderful view of the sea. 80 sq.m&nbsp;each, two bedrooms, two bathrooms, air - conditioned, TV, kithen equipment, 300 m or 7 minutes away from Ai Helis beach. Ideal for families or two couples (4 - 6 persons).</p>\r\n\r\n<p><span style=\"color:#003d79\">Location Description</span></p>\r\n\r\n<p>&Tau;he villas are situated on the very beautiful green place with lots of trees and grapevine around, close to the sea, 300m from the nearest beach Ai Helis (quiet and sandy). Every house has a wonderful view to the Ionian Sea and a mountains. The main road with shops, tavernas, bars, Rent a Carand bus stop to the town 250m from the villas. The nearest tavern, you can get a breakfast, lunch and dinner 150m, supermarket 300m, Argostoli town&nbsp;8km, Airport&nbsp;2km, Marina (you can get there very interesting trips)&nbsp;&nbsp;500m. There are 4 beaches around.</p>\r\n\r\n<p><span style=\"color:#003d79\">Policies</span></p>\r\n\r\n<p>Extra bed +5 euro per night. Prices are in euros including taxes. Breakfast can be served after the request (8 euros per person, 50% discount for children under 12 y.o.)</p>",
+    "address": "Svoronata, Kefalonia",
+    "zip_code": "28100",
+    "phone_number_1": "+302671041030",
+    "phone_number_2": "+306944295576",
+    "website": "http://www.monambelesvillas.gr/",
+    "service_type": 1,
+    "users": [],
+    "amenities": [
+      {
+        "id": 70007,
+        "name": "Dry cleaning/laundry service",
+        "description": ""
+      },
+      {
+        "id": 70011,
+        "name": "Air conditioning",
+        "description": ""
+      },
+      {
+        "id": 70012,
+        "name": "Children playground",
+        "description": ""
+      },
+      {
+        "id": 70024,
+        "name": "Swimming Pool",
+        "description": ""
       },
       {
         "id": 70025,
-        "top": 0.222222222222222,
-        "left": 0.083984375,
-        "image_id": "1078970935509256061",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
+        "name": "In-room safe",
+        "description": ""
       },
       {
         "id": 70026,
-        "top": 0.236111111111111,
-        "left": 0.2265625,
-        "image_id": "1078970926642497018",
+        "name": "Internet access",
+        "description": ""
+      },
+      {
+        "id": 70042,
+        "name": "Pets allowed",
+        "description": ""
+      },
+      {
+        "id": 70044,
+        "name": "Satellite TV / TV",
+        "description": ""
+      },
+      {
+        "id": 70045,
+        "name": "Kitchenette",
+        "description": ""
+      }
+    ],
+    "attrs": {
+      "rooms": 5,
+      "prices": {
+        "max_price": 2.0,
+        "min_price": 1.0
+      },
+      "house_rules": "not provided",
+      "minimum_stay": {
+        "min_availability": 4
+      },
+      "safety_features": "not provided",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2,
+      "max_number_of_persons_to_sleep": 4
+    },
+    "date_created": "2017-06-02T11:43:08.647096Z",
+    "modified_date": "2017-06-02T15:58:49.801181Z",
+    "country": "GR",
+    "is_active": true,
+    "polygon": null,
+    "point": {
+      "latitude": "38.102362970206855",
+      "longitude": "20.519452238037047"
+    },
+    "image_pins": [
+      {
+        "id": 70562,
+        "top": 0.287995510631137,
+        "left": 0.196889221668243,
+        "image_id": "20594",
         "entity_ads_url": null,
         "show_paid_pins": true,
         "entity_has_paid_pins": false
       },
       {
-        "id": 70027,
-        "top": 0.534722222222222,
-        "left": 0.2705078125,
-        "image_id": "1078970934183855746",
+        "id": 70563,
+        "top": 0.110912177297804,
+        "left": 0.323842346668243,
+        "image_id": "20593",
         "entity_ads_url": null,
         "show_paid_pins": true,
         "entity_has_paid_pins": false
       },
       {
-        "id": 70028,
-        "top": 0.46875,
-        "left": 0.2470703125,
-        "image_id": "1078971128900224987",
+        "id": 70564,
+        "top": 0.204662177297804,
+        "left": 0.0894673466682434,
+        "image_id": "20592",
         "entity_ads_url": null,
         "show_paid_pins": true,
         "entity_has_paid_pins": false
       },
       {
-        "id": 70030,
-        "top": 0.449652777777778,
-        "left": 0.50732421875,
-        "image_id": "1078970935509256062",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70031,
-        "top": 0.239583333333333,
-        "left": 0.20556640625,
-        "image_id": "1078970926642497018",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70032,
-        "top": 0.383680555555556,
-        "left": 0.54345703125,
-        "image_id": "1078970940206876177",
+        "id": 70565,
+        "top": 0.300148288408915,
+        "left": 0.792592346668243,
+        "image_id": "20355",
         "entity_ads_url": null,
         "show_paid_pins": true,
         "entity_has_paid_pins": false
       }
     ],
     "images": [],
+    "weather_info": {
+      "airport_ref": "Kefallinia (LGKF)",
+      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKF_03.png",
+      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKF_01.png",
+      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKF_04.png",
+      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKF_02.png"
+    }
+  },
+  {
+    "id": 70535,
+    "name": "Villa Alexandra",
+    "description": "<p>Villa Alexandra&nbsp;is located opposite the sea, with wonderful views across the Ionion sea, to the mountains on the Greek mainland. It offers apartments with spacious, furnished verandas, where you can relax with a nice cool drink.&nbsp;Alexandra apartments are bright and tastefully decorated in warm tones. We have three large apartments and a studio.&nbsp;Each apartment occupies one floor and sleeps up to 4 people.&nbsp;</p>\r\n\r\n<p><span style=\"color:#003d79\">rooms description</span></p>\r\n\r\n<p>Each apartment occupies one floor and sleeps up to 4 people. &nbsp; We have three apartments with two double bedrooms,safe, a kitchenette and a dining area. &nbsp;They are air-conditioned and have flat-screen satellite TV. In the en-suite bathroom you will find a hydromassage shower cabin, free toiletries and a hairdryer.&nbsp;The studio sleeps 2 people and has a side balcony on the second floor. It is also air-conditioned with satellite TV and a safe. There is a kitchenette, dining area and bathroom with hair-dryer and free toiletries.&nbsp;Internet access is available. We provide sunbeds for your use on the beach and there is free private parking.&nbsp;It&rsquo;s only 100 metres to our taverna Boukari Beach where the family offer a wide variety of fresh fish, live lobster and other traditional home-cooked greek dishes.</p>\r\n\r\n<p><span style=\"color:#003d79\">Facilities - Amenities</span></p>\r\n\r\n<p>We have three apartments with&nbsp;two double bedrooms,safe, a&nbsp;kitchenette&nbsp;and a&nbsp;dining area. They are&nbsp;air-conditioned&nbsp;and have&nbsp;flat-screen satellite TV. In the en-suite bathroom you will find a&nbsp;hydromassage shower cabin, free toiletries and a&nbsp;hairdryer.&nbsp;The&nbsp;studio sleeps 2&nbsp;people and has a large veranda on the second floor. It is also&nbsp;air-conditioned&nbsp;with&nbsp;satellite TV&nbsp;and asafe. There is a&nbsp;kitchenette, dining area and bathroom with&nbsp;hair-dryer&nbsp;and&nbsp;free toiletries.&nbsp;Internet access is available and free&nbsp;.</p>\r\n\r\n<p><span style=\"color:#003d79\">Location Description</span></p>\r\n\r\n<p>Villa Alexandra&nbsp;enjoy a quiet beachfront location perfect for relaxation, in Boukari, Corfu.&nbsp;Surrounded by Olive groves, bordered by the sea and back by mountains offers guests a friendly authentic Greek feel.&nbsp;just few meters away from the sea and the harbour of the Boukarivillage.&nbsp;30 minutes away from the airport . all popular sandy beaches of the island are very near.</p>\r\n\r\n<p><span style=\"color:#003d79\">Policies</span></p>",
+    "address": "Boukari beach",
+    "zip_code": "490 80",
+    "phone_number_1": "2662051791",
+    "phone_number_2": "6937028457",
+    "website": "http://www.boukaribeach.gr",
+    "service_type": 1,
+    "users": [],
+    "amenities": [
+      {
+        "id": 70001,
+        "name": "Rent a Car",
+        "description": ""
+      },
+      {
+        "id": 70005,
+        "name": "Free WiFi",
+        "description": ""
+      },
+      {
+        "id": 70011,
+        "name": "Air conditioning",
+        "description": ""
+      },
+      {
+        "id": 70019,
+        "name": "Airport transportation",
+        "description": ""
+      },
+      {
+        "id": 70022,
+        "name": "Direct access to private beach",
+        "description": ""
+      },
+      {
+        "id": 70025,
+        "name": "In-room safe",
+        "description": ""
+      },
+      {
+        "id": 70044,
+        "name": "Satellite TV / TV",
+        "description": ""
+      },
+      {
+        "id": 70045,
+        "name": "Kitchenette",
+        "description": ""
+      }
+    ],
+    "attrs": {
+      "rooms": 4,
+      "prices": {
+        "max_price": 2.0,
+        "min_price": 1.0
+      },
+      "house_rules": "not provided",
+      "minimum_stay": {
+        "min_availability": 4
+      },
+      "safety_features": "not provided",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2,
+      "max_number_of_persons_to_sleep": 4
+    },
+    "date_created": "2017-06-02T10:55:55.415231Z",
+    "modified_date": "2017-06-02T10:59:50.254406Z",
+    "country": "GR",
+    "is_active": true,
+    "polygon": null,
+    "point": {
+      "latitude": "39.4597825",
+      "longitude": "19.97123179999994"
+    },
+    "image_pins": [
+      {
+        "id": 70542,
+        "top": 0.718551066186693,
+        "left": 0.751576721668243,
+        "image_id": "67521",
+        "entity_ads_url": null,
+        "show_paid_pins": true,
+        "entity_has_paid_pins": false
+      },
+      {
+        "id": 70543,
+        "top": 0.647370510631137,
+        "left": 0.228139221668243,
+        "image_id": "67516",
+        "entity_ads_url": null,
+        "show_paid_pins": true,
+        "entity_has_paid_pins": false
+      },
+      {
+        "id": 70544,
+        "top": 0.61959273285336,
+        "left": 0.229115784168243,
+        "image_id": "67517",
+        "entity_ads_url": null,
+        "show_paid_pins": true,
+        "entity_has_paid_pins": false
+      },
+      {
+        "id": 70545,
+        "top": 0.558828843964471,
+        "left": 0.227162659168243,
+        "image_id": "68281",
+        "entity_ads_url": null,
+        "show_paid_pins": true,
+        "entity_has_paid_pins": false
+      }
+    ],
+    "images": [
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70535/6b4c41901d0fa00b74bc24fd072dbd8c-20818077_800.jpg",
+        "id": 70536
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70535/9d82cac4a565c9e600a93bdeebbd53d9-18337354_800.jpg",
+        "id": 70537
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70535/cb90de6575dc2ef6e93745ba534ce8b0-49667026_800.jpg",
+        "id": 70538
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70535/cee01011a28f69bb42dc6d6c4190ef0e-24255605_800.jpg",
+        "id": 70539
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70535/e3ac984218087fda74a99cdbf35910d7-47405847_800.jpg",
+        "id": 70540
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70535/e29461e3b883e9f02baedb30b2170220-25545262_800.jpg",
+        "id": 70541
+      }
+    ],
     "weather_info": {
       "airport_ref": "Ioannis Kapodistrias Intl (LGKR)",
       "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKR_03.png",
@@ -190,1070 +418,82 @@
     }
   },
   {
-    "id": 70077,
-    "name": "amenities tiga",
-    "description": "giati mporw",
-    "address": "VIA CAPO, 60",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
+    "id": 70527,
+    "name": "Balaris Apartments",
+    "description": "<p>The Balaris Apartments are modern and comfortably furnished and are ideally situated for families, groups or couples looking to be in a central location, within walking distance of all the resort&#39;s amenities and beaches.</p>\r\n\r\n<p><span style=\"color:#003d79\">rooms description</span></p>\r\n\r\n<p>The Balaris apartments consist of 8 one bedroom apartments for 2 to 5 people*, all with satellite tv, private bathroom with shower and w.c, hairdryer, fully equipped kitchens and balconies or terraces.&nbsp;All apartments have air conditioning.&nbsp;Three of the apartments are situated on the ground floor and the other five are on the first floor.&nbsp;The private bedroom in each apartment has two&nbsp;smart iron beds, a dressing table&nbsp;and cupboard space, while the lounge / sleeping&nbsp;area&nbsp;has the home comfort of satellite tv.&nbsp;There is a&nbsp;well - equipped kitchen with full size cooker in each apartment and a modern bathroom with WC and shower cubicle.&nbsp;For your convenience there is a hairdryer, iron and ironing board supplied in each apartment.&nbsp;In the cooler months, cosy duvets are available for extra warmth and air&nbsp;conditioning is installed for respite from the heat&nbsp;during the hot summer months.&nbsp;All apartments have private balconies or terraces.&nbsp;</p>\r\n\r\n<p><span style=\"color:#003d79\">Location Description</span></p>\r\n\r\n<p>The Balaris Apartments are located close to the centre of the village, approximately 5 minutes walk to the square and 10 minutes to the harbour.</p>",
+    "address": "ÎšÎ±ÏƒÏƒÎ¹ÏŒÏ€Î·, ÎšÎ­ÏÎºÏ…ÏÎ±, Î•Î»Î»Î¬Î´Î±",
+    "zip_code": "49081",
+    "phone_number_1": "+302663081220",
+    "phone_number_2": "+306944711083",
+    "website": "http://www.balarisapartments.com/",
     "service_type": 1,
     "users": [],
     "amenities": [
       {
-        "id": 70012,
-        "name": "has_parking",
-        "description": "<p>parking</p>"
+        "id": 70005,
+        "name": "Free WiFi",
+        "description": ""
+      },
+      {
+        "id": 70011,
+        "name": "Air conditioning",
+        "description": ""
+      },
+      {
+        "id": 70024,
+        "name": "Swimming Pool",
+        "description": ""
+      },
+      {
+        "id": 70044,
+        "name": "Satellite TV / TV",
+        "description": ""
+      },
+      {
+        "id": 70045,
+        "name": "Kitchenette",
+        "description": ""
       }
     ],
     "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 3,
-        "min_price": 1
-      },
-      "house_rules": "my rules",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "features"
-    },
-    "date_created": "2017-05-15T13:48:31.210002Z",
-    "modified_date": "2017-05-15T13:48:31.210029Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "40.6282067",
-      "longitude": "14.361589500000036"
-    },
-    "image_pins": [
-      {
-        "id": 70078,
-        "top": 0.634074074074074,
-        "left": 0.526666666666667,
-        "image_id": "1078902914962949973",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70079,
-        "top": 0.539259259259259,
-        "left": 0.530833333333333,
-        "image_id": "1078902916774889310",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Capodichino (LIRN)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LIRN_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LIRN_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LIRN_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LIRN_02.png"
-    }
-  },
-  {
-    "id": 70081,
-    "name": "test_post",
-    "description": "test description for post method",
-    "address": "somewhere",
-    "zip_code": "223 43",
-    "phone_number_1": "+60 3232322",
-    "phone_number_2": "+60 3232323",
-    "website": null,
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [
-      {
-        "id": 70014,
-        "name": "cable_tv",
-        "description": "<p>cable television</p>"
-      }
-    ],
-    "attrs": {
-      "rooms": 3,
+      "rooms": 8,
       "prices": {
         "max_price": 2.0,
         "min_price": 1.0
       },
-      "house_rules": "No rules",
-      "availability": {
+      "house_rules": "not provided",
+      "minimum_stay": {
         "min_availability": 4
       },
-      "safety_features": "None"
+      "safety_features": "not provided",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2,
+      "max_number_of_persons_to_sleep": 2
     },
-    "date_created": "2017-05-19T11:43:13.897431Z",
-    "modified_date": "2017-05-19T11:43:13.897454Z",
-    "country": "gr",
+    "date_created": "2017-06-01T15:23:03.359148Z",
+    "modified_date": "2017-06-01T15:27:21.364885Z",
+    "country": "GR",
     "is_active": true,
     "polygon": null,
     "point": {
-      "latitude": "38.03888329999999",
-      "longitude": "23.690119600000003"
+      "latitude": "39.7890307",
+      "longitude": "19.921951300000046"
     },
     "image_pins": [
       {
-        "id": 70082,
-        "top": 0.418402777777778,
-        "left": 0.498046875,
-        "image_id": "1078970935509256062",
+        "id": 70528,
+        "top": 0.0640371772978041,
+        "left": 0.830678284168243,
+        "image_id": "65916",
         "entity_ads_url": null,
         "show_paid_pins": true,
         "entity_has_paid_pins": false
       },
       {
-        "id": 70083,
-        "top": 0.222222222222222,
-        "left": 0.083984375,
-        "image_id": "1078970935509256061",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70084,
-        "top": 0.236111111111111,
-        "left": 0.2265625,
-        "image_id": "1078970926642497018",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70085,
-        "top": 0.534722222222222,
-        "left": 0.2705078125,
-        "image_id": "1078970934183855746",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70086,
-        "top": 0.46875,
-        "left": 0.2470703125,
-        "image_id": "1078971128900224987",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70087,
-        "top": 0.449652777777778,
-        "left": 0.50732421875,
-        "image_id": "1078970935509256062",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70088,
-        "top": 0.239583333333333,
-        "left": 0.20556640625,
-        "image_id": "1078970926642497018",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70089,
-        "top": 0.383680555555556,
-        "left": 0.54345703125,
-        "image_id": "1078970940206876177",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70109,
-    "name": "my villa wit",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 5,
-        "min_price": 2
-      },
-      "house_rules": "j",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "j"
-    },
-    "date_created": "2017-05-23T09:49:20.176927Z",
-    "modified_date": "2017-05-23T09:49:20.176946Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70110,
-        "top": 0.637037037037037,
-        "left": 0.574166666666667,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70111,
-    "name": "my villa with images",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [
-      {
-        "id": 70014,
-        "name": "cable_tv",
-        "description": "<p>cable television</p>"
-      }
-    ],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 4,
-        "min_price": 1
-      },
-      "house_rules": "h",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "h"
-    },
-    "date_created": "2017-05-23T10:06:41.343060Z",
-    "modified_date": "2017-05-23T10:06:41.343083Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.33808515663168",
-      "longitude": "23.679285322265514"
-    },
-    "image_pins": [
-      {
-        "id": 70112,
-        "top": 0.453333333333333,
-        "left": 0.711666666666667,
-        "image_id": "1078971208407451483",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70113,
-        "top": 0.542222222222222,
-        "left": 0.2775,
-        "image_id": "1078971361172391930",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70114,
-        "top": 0.306666666666667,
-        "left": 0.590833333333333,
-        "image_id": "1078971208248067924",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tanagra (LGTG)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTG_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTG_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTG_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTG_02.png"
-    }
-  },
-  {
-    "id": 70090,
-    "name": "my villa test 2",
-    "description": "<p>giati mporw</p>",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [],
-    "amenities": [
-      {
-        "id": 70013,
-        "name": "has_wifi",
-        "description": "<p>wifi</p>"
-      },
-      {
-        "id": 70014,
-        "name": "cable_tv",
-        "description": "<p>cable television</p>"
-      }
-    ],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 10,
-        "min_price": 12
-      },
-      "house_rules": "asdas",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "none feautures"
-    },
-    "date_created": "2017-05-19T12:13:38.273229Z",
-    "modified_date": "2017-05-22T12:36:08.250919Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [],
-    "images": [
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo3.png",
-        "id": 70093
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/images",
-        "id": 70094
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo.png",
-        "id": 70095
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo2.png",
-        "id": 70096
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo.png",
-        "id": 70097
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo2.png",
-        "id": 70098
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo.png",
-        "id": 70099
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo2.png",
-        "id": 70100
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo.png",
-        "id": 70101
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo2.png",
-        "id": 70102
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo.png",
-        "id": 70103
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo2.png",
-        "id": 70104
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo.png",
-        "id": 70105
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70090/logo2.png",
-        "id": 70106
-      }
-    ],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70107,
-    "name": "villa with images",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 2,
-        "min_price": 1
-      },
-      "house_rules": "g",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "g"
-    },
-    "date_created": "2017-05-23T09:47:13.374244Z",
-    "modified_date": "2017-05-23T09:47:13.374267Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "41.12733750842405",
-      "longitude": "9.071288381652835"
-    },
-    "image_pins": [
-      {
-        "id": 70108,
-        "top": 0.502222222222222,
-        "left": 0.5125,
-        "image_id": "1078902366087939341",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Sud Corse (LFKF)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LFKF_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LFKF_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LFKF_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LFKF_02.png"
-    }
-  },
-  {
-    "id": 70115,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 3,
-        "min_price": 2
-      },
-      "house_rules": "f",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "h"
-    },
-    "date_created": "2017-05-23T10:08:38.416711Z",
-    "modified_date": "2017-05-23T10:08:38.416751Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "37.930858916502494",
-      "longitude": "22.866983686523326"
-    },
-    "image_pins": [
-      {
-        "id": 70116,
-        "top": 0.477037037037037,
-        "left": 0.365,
-        "image_id": "1078971186412520492",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70117,
-        "top": 0.34962962962963,
-        "left": 0.440833333333333,
-        "image_id": "1078971186412520496",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      },
-      {
-        "id": 70118,
-        "top": 0.05,
-        "left": 0.005,
-        "image_id": "1078971186404131880",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Megara (LGMG)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGMG_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGMG_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGMG_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGMG_02.png"
-    }
-  },
-  {
-    "id": 70119,
-    "name": "my villahhhhhhhhh",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 7,
-        "min_price": 4
-      },
-      "house_rules": "f",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "f"
-    },
-    "date_created": "2017-05-23T10:11:48.485353Z",
-    "modified_date": "2017-05-23T10:11:48.485383Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [],
-    "images": [
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70119/logo2.png",
-        "id": 70143
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70119/logo3.png",
-        "id": 70144
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70119/images.jpg",
-        "id": 70157
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70119/Luxury-seafront-hotel-cote-azur-villa-mauresque-22_1.jpg",
-        "id": 70158
-      }
-    ],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70120,
-    "name": "my villaggggg",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 5,
-        "min_price": 2
-      },
-      "house_rules": "ggg",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "ggg"
-    },
-    "date_created": "2017-05-23T10:13:22.273284Z",
-    "modified_date": "2017-05-23T10:13:22.273325Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70121,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 5,
-        "min_price": 2
-      },
-      "house_rules": "g",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "fg"
-    },
-    "date_created": "2017-05-23T10:18:28.136236Z",
-    "modified_date": "2017-05-23T10:18:28.136267Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70122,
-        "top": 0.402962962962963,
-        "left": 0.501666666666667,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70123,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 5,
-        "min_price": 4
-      },
-      "house_rules": "gg",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "gg"
-    },
-    "date_created": "2017-05-23T10:27:06.871915Z",
-    "modified_date": "2017-05-23T10:27:06.871939Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70124,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 4,
-        "min_price": 3
-      },
-      "house_rules": "f",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "f"
-    },
-    "date_created": "2017-05-23T10:28:05.974612Z",
-    "modified_date": "2017-05-23T10:28:05.974637Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70125,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 4,
-        "min_price": 2
-      },
-      "house_rules": "b",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "g"
-    },
-    "date_created": "2017-05-23T10:28:32.106908Z",
-    "modified_date": "2017-05-23T10:28:32.106932Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70126,
-        "top": 0.579259259259259,
-        "left": 0.580833333333333,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70127,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 7,
-        "min_price": 3
-      },
-      "house_rules": "d",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "d"
-    },
-    "date_created": "2017-05-23T10:35:49.218162Z",
-    "modified_date": "2017-05-23T10:35:49.218187Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70128,
-        "top": 0.613333333333333,
-        "left": 0.546666666666667,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70129,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 4,
-        "min_price": 2
-      },
-      "house_rules": "d",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "d"
-    },
-    "date_created": "2017-05-23T10:37:43.529593Z",
-    "modified_date": "2017-05-23T10:37:43.529626Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70130,
-        "top": 0.807407407407407,
-        "left": 0.5625,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70131,
-    "name": "my villacccc",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 3,
-        "min_price": 2
-      },
-      "house_rules": "c",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "c"
-    },
-    "date_created": "2017-05-23T10:39:14.659792Z",
-    "modified_date": "2017-05-23T10:39:14.659815Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70132,
-        "top": 0.422222222222222,
-        "left": 0.57,
-        "image_id": "1091251598295828325",
+        "id": 70529,
+        "top": 0.136953843964471,
+        "left": 0.631459534168243,
+        "image_id": "65917",
         "entity_ads_url": null,
         "show_paid_pins": true,
         "entity_has_paid_pins": false
@@ -1261,541 +501,43 @@
     ],
     "images": [
       {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70131/working.jpeg",
-        "id": 70147
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70527/2c4f5e70e4a7538ffed85446da5f0716-balaris_apartments_sitting_room.jpg",
+        "id": 70530
       },
       {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70131/moumi.png",
-        "id": 70148
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70527/3a83f2e6af5101469b473cfefc704e54-balari_apartments_sitting_room.jpg",
+        "id": 70531
       },
       {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70131/moumi2.png",
-        "id": 70149
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70527/3a454119e4511b18fd5e131f856357bc-balaris_bedroom_light.jpg",
+        "id": 70532
       },
       {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70131/moumi2.png",
-        "id": 70150
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70527/29bac67692a98807e88b73ad865cc53f-balaris_bedroom.jpg",
+        "id": 70533
       },
       {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70131/working.jpeg",
-        "id": 70151
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70131/working.jpeg",
-        "id": 70152
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70131/working.jpeg",
-        "id": 70153
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70131/working.jpeg",
-        "id": 70154
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70131/working.jpeg",
-        "id": 70155
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70131/moumi2.png",
-        "id": 70156
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70527/15219e26c4ffed65062006a57c917c08-balaris_apartments_kitchen.jpg",
+        "id": 70534
       }
     ],
     "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
+      "airport_ref": "Ioannis Kapodistrias Intl (LGKR)",
+      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKR_03.png",
+      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKR_01.png",
+      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKR_04.png",
+      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKR_02.png"
     }
   },
   {
-    "id": 70133,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 8,
-        "min_price": 2
-      },
-      "house_rules": "c",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "c"
-    },
-    "date_created": "2017-05-23T10:41:07.249942Z",
-    "modified_date": "2017-05-23T10:41:07.249970Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70134,
-        "top": 0.518518518518518,
-        "left": 0.505,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70135,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 5,
-        "min_price": 2
-      },
-      "house_rules": "222",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "22"
-    },
-    "date_created": "2017-05-23T10:42:17.032161Z",
-    "modified_date": "2017-05-23T10:42:17.032181Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70136,
-        "top": 0.585185185185185,
-        "left": 0.541666666666667,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70137,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 6,
-        "min_price": 3
-      },
-      "house_rules": "d",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "d"
-    },
-    "date_created": "2017-05-23T10:43:08.379685Z",
-    "modified_date": "2017-05-23T10:43:08.379705Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70138,
-        "top": 0.311111111111111,
-        "left": 0.545,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70139,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 8,
-        "min_price": 2
-      },
-      "house_rules": "h",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "h"
-    },
-    "date_created": "2017-05-23T10:44:51.006004Z",
-    "modified_date": "2017-05-23T10:44:51.006025Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70140,
-        "top": 0.348148148148148,
-        "left": 0.543333333333333,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70141,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 8,
-        "min_price": 3
-      },
-      "house_rules": "f",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "f"
-    },
-    "date_created": "2017-05-23T10:46:09.901534Z",
-    "modified_date": "2017-05-23T10:46:09.901570Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70142,
-        "top": 0.571851851851852,
-        "left": 0.53,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70145,
-    "name": "my villa",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 7,
-        "min_price": 4
-      },
-      "house_rules": "n",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "n"
-    },
-    "date_created": "2017-05-23T10:50:12.374298Z",
-    "modified_date": "2017-05-23T10:50:12.374325Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70146,
-        "top": 0.543703703703704,
-        "left": 0.56,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70159,
-    "name": "my villa images",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 89,
-        "min_price": 33
-      },
-      "house_rules": "fg",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "fg"
-    },
-    "date_created": "2017-05-23T12:30:35.832164Z",
-    "modified_date": "2017-05-23T12:30:35.832186Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "40.09875291802347",
-      "longitude": "22.56073979003895"
-    },
-    "image_pins": [
-      {
-        "id": 70160,
-        "top": 0.494814814814815,
-        "left": 0.6,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70159/images.jpg",
-        "id": 70161
-      }
-    ],
-    "weather_info": {
-      "airport_ref": "Larisa (LGLR)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGLR_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGLR_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGLR_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGLR_02.png"
-    }
-  },
-  {
-    "id": 70162,
-    "name": "damn villas are nice",
-    "description": "giati mporw",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
-    "service_type": 1,
-    "users": [
-      {
-        "user_id": "1",
-        "company_id": "2"
-      }
-    ],
-    "amenities": [],
-    "attrs": {
-      "rooms": 12,
-      "prices": {
-        "max_price": 7,
-        "min_price": 2
-      },
-      "house_rules": "fg",
-      "availability": {
-        "min_availability": 5
-      },
-      "safety_features": "fr"
-    },
-    "date_created": "2017-05-23T12:32:43.001183Z",
-    "modified_date": "2017-05-23T12:32:43.001202Z",
-    "country": "gr",
-    "is_active": true,
-    "polygon": null,
-    "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
-    },
-    "image_pins": [
-      {
-        "id": 70163,
-        "top": 0.628148148148148,
-        "left": 0.6825,
-        "image_id": "1091251598295828325",
-        "entity_ads_url": null,
-        "show_paid_pins": true,
-        "entity_has_paid_pins": false
-      }
-    ],
-    "images": [
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70162/images.jpg",
-        "id": 70164
-      },
-      {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70162/Luxury-seafront-hotel-cote-azur-villa-mauresque-22_1.jpg",
-        "id": 70165
-      }
-    ],
-    "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
-    }
-  },
-  {
-    "id": 70166,
-    "name": "my villa",
-    "description": "<p>giati mporw</p>",
-    "address": "mpernoyli 23 alexandroypoli",
-    "zip_code": "12342",
-    "phone_number_1": "2183934039",
-    "phone_number_2": "2183922345",
-    "website": "http://giaoyrti.com",
+    "id": 70510,
+    "name": "Takis Apartments",
+    "description": "<p>The owner Christiana Avgerinou will welcome you and make sure your holiday in Corfu will be an unforgettable experience. Takis Corfu apartments is the ideal option for your vacation since they are located just outside Sidari, near the unique Canal D&#39; Amour. Settled in private grounds with luscious gardens, Takis Corfu apartments offers you absolute privacy and warm Greek hospitality. Our private 200 sqm swimming pool offers refreshing and joyful moments to children of all ages. Adults can sit back and relax on the sun loungers, overlooking the pool, together with an iced beverage or cocktail from our pool bar. In our comfortable and well equipped apartments you will enjoy a relaxing and comfortable summer holiday.</p>\r\n\r\n<p><span style=\"color:#003d79\"><strong><span style=\"background-color:#ffffff\">rooms description</span></strong></span></p>\r\n\r\n<p>Takis Corfu Apartments consists of 9 fully equipped apartments that can accommodate 2 to 8 people.</p>\r\n\r\n<p>Type A: 1 Bedroom Apartment:&nbsp;It can accommodate up to 3 people. It has a bedroom with twin beds, bathroom and seperate kitchen area. All double apartments have balcony or veranda with pool view.<br />\r\nType B: 2 Bedroom Apartment:&nbsp;It can accommodate up to 6 people. It has 2 bedrooms, one bathroom and a seperate kitchen area.&nbsp;All 2 Bedroom apartments have balcony or veranda with pool view.<br />\r\nType C: 2 Bedroom Apartment with sitting room:&nbsp;It can accommodate up to 8 people. It has 2 bedrooms, one bathroom and a seperate kitchen and sitting room area. In the sitting room area there is a double sofa-bed that can sleep up to 2 people. All 2 Bedroom with sitting room apartments have balcony or veranda with pool view.</p>\r\n\r\n<p><span style=\"color:#003d79\"><strong>Facilities - Amenities</strong></span></p>\r\n\r\n<p>fully equipped kitchen (oven/microwave, fridge, kettle &amp; toaster), private bathroom with shower, &nbsp;fitted hairdryer,&nbsp;spacious balcony with pool view,&nbsp;integrated children pool,&nbsp;<strong>free</strong>&nbsp;sun loungers &amp; parasols</p>\r\n\r\n<p><span style=\"color:#003d79\"><strong><span style=\"background-color:#ffffff\">Location Description</span></strong></span></p>\r\n\r\n<p>Takis apartments complex is about 5 minutes walk from Sidari&rsquo;s main center, 3 minutes walk from&nbsp;<a href=\"http://www.tripadvisor.com/Attraction_Review-g676295-d1156914-Reviews-Sidari_Beach-Sidari_Corfu_Ionian_Islands.html\" target=\"_blank\">Sidari beach</a>&nbsp;&amp; the Canal D&rsquo;Amour and also about 2 minutes from the nearest super market &amp; local bus stop.<br />\r\nSidari is about 45 minutes drive from&nbsp;<a href=\"http://www.corfu-airport.com/\" target=\"_blank\">Ioannis Kapodistrias International Airport (CFU)</a>&nbsp;and the&nbsp;<a href=\"http://corfuport.gr/en.html\" target=\"_blank\">Port of Corfu</a>.&nbsp;We can arrange, for you, a pick up from the airport or port by taxi and we can also organize a car hire for you.</p>",
+    "address": "Epar.Od. Skriperou-Peroulades, Sidari 490 81, Greece",
+    "zip_code": "49081",
+    "phone_number_1": "2661031523",
+    "phone_number_2": "+306937060491",
+    "website": "http://www.takisapartments.com",
     "service_type": 1,
     "users": [
       {
@@ -1805,47 +547,94 @@
     ],
     "amenities": [
       {
-        "id": 70013,
-        "name": "has_wifi",
-        "description": "<p>wifi</p>"
+        "id": 70005,
+        "name": "Free WiFi",
+        "description": ""
+      },
+      {
+        "id": 70011,
+        "name": "Air conditioning",
+        "description": ""
+      },
+      {
+        "id": 70017,
+        "name": "Breakfast",
+        "description": ""
+      },
+      {
+        "id": 70024,
+        "name": "Swimming Pool",
+        "description": ""
+      },
+      {
+        "id": 70025,
+        "name": "In-room safe",
+        "description": ""
+      },
+      {
+        "id": 70045,
+        "name": "Kitchenette",
+        "description": ""
+      },
+      {
+        "id": 70046,
+        "name": "BBQ",
+        "description": ""
+      },
+      {
+        "id": 70048,
+        "name": "Parking",
+        "description": ""
       }
     ],
     "attrs": {
-      "rooms": 12,
+      "rooms": 9,
       "prices": {
-        "max_price": 5,
-        "min_price": 10
+        "max_price": 2.0,
+        "min_price": 1.0
       },
-      "house_rules": "peinaw agria",
-      "availability": {
+      "house_rules": "not provided",
+      "minimum_stay": {
         "min_availability": 5
       },
-      "safety_features": "none feautures"
+      "safety_features": "not provided",
+      "number_of_bedrooms": 2,
+      "number_of_bathrooms": 2,
+      "max_number_of_persons_to_sleep": 4
     },
-    "date_created": "2017-05-23T12:53:40.307381Z",
-    "modified_date": "2017-05-26T13:45:59.119412Z",
+    "date_created": "2017-05-29T12:54:09.097161Z",
+    "modified_date": "2017-05-30T15:02:54.342484Z",
     "country": "GR",
     "is_active": true,
     "polygon": null,
     "point": {
-      "latitude": "38.007725",
-      "longitude": "23.74383"
+      "latitude": "39.7864926",
+      "longitude": "19.708227899999997"
     },
     "image_pins": [
       {
-        "id": 70168,
-        "top": 0.487407407407407,
-        "left": 0.320833333333333,
-        "image_id": "1091251598295828325",
+        "id": 70524,
+        "top": 0.484176066186693,
+        "left": 0.359480082988739,
+        "image_id": "66066",
         "entity_ads_url": null,
         "show_paid_pins": true,
         "entity_has_paid_pins": false
       },
       {
-        "id": 70975,
-        "top": 0.420138888888889,
-        "left": 0.59033203125,
-        "image_id": "121898",
+        "id": 70525,
+        "top": 0.46334273285336,
+        "left": 0.697865784168243,
+        "image_id": "66648",
+        "entity_ads_url": null,
+        "show_paid_pins": true,
+        "entity_has_paid_pins": false
+      },
+      {
+        "id": 70526,
+        "top": 0.537995510631137,
+        "left": 0.341420471668243,
+        "image_id": "66066",
         "entity_ads_url": null,
         "show_paid_pins": true,
         "entity_has_paid_pins": false
@@ -1853,16 +642,48 @@
     ],
     "images": [
       {
-        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70166/logo2.png",
-        "id": 70172
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70510/2fa4ef076e147083cd8645b983260bdc-14n.-takis-apartments_1.jpg",
+        "id": 70515
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70510/39f97e88e1049c41d130f81fdaa286a9-15n.-takis-apartments.jpg",
+        "id": 70516
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70510/ea59fa53d91de9b072a06dff2edc0be0-16n.-takis-apartments.jpg",
+        "id": 70517
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70510/1ea24605334d67bb4e94eddb53a12340-12n.-type-a-bedroom.jpg",
+        "id": 70518
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70510/9c77bfbac40c7d30d74ddebd1e1b736e-11n.-type-b-bedroom.jpg",
+        "id": 70519
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70510/5447cef9a2b871158cd567a3a85b370a-08n.-type-c-kitchen.jpg",
+        "id": 70520
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70510/660652ef5d4418f34706801dcd0b5edc-13n.-takis-apartments.jpg",
+        "id": 70521
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70510/a46178a1f6b74c5c58526092e1138840-10n.-type-c-bedroom.jpg",
+        "id": 70522
+      },
+      {
+        "image": "https://d2wzo7cpkz5upz.cloudfront.net/user_images/70510/d5dd6f16545c1edd99cb6a775ff4dd81-09n.-type-c-sitting-room.jpg",
+        "id": 70523
       }
     ],
     "weather_info": {
-      "airport_ref": "Tatoi (LGTT)",
-      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_03.png",
-      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_01.png",
-      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_04.png",
-      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGTT_02.png"
+      "airport_ref": "Ioannis Kapodistrias Intl (LGKR)",
+      "wind_speed": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKR_03.png",
+      "temperature": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKR_01.png",
+      "sunshine": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKR_04.png",
+      "humidity": "https://d2wzo7cpkz5upz.cloudfront.net/weather_v1/LGKR_02.png"
     }
   }
 ]
