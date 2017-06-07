@@ -4,10 +4,6 @@
 
 A simple solution for extracting fields from an API Response in Json format.
 
-## Prerequisites
-
-* [Requests: HTTP for Humans](http://docs.python-requests.org/en/master/) - For the get requests
-
 ## Examples
 ###### Example 1
 Data response from endpoint

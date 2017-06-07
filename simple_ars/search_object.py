@@ -6,7 +6,7 @@ for validating and parsing data
 
 __authors__ = 'Manolis Tsoukalas'
 __date__ = '2017-1-3'
-__version__ = '0.1'
+__version__ = '0.2'
 
 
 class SearchObjectType(object):
@@ -25,7 +25,7 @@ class SearchObjectType(object):
 
     def __set__(self, instance, value):
         if not isinstance(value, self.type):
-            raise TypeError("Must be a {}".format(self.type))
+            raise TypeError("Value {} is not a type {}".format(value, self.type))
         setattr(instance, self.name, value)
 
     def __delete__(self, instance):

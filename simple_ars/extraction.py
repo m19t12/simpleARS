@@ -1,110 +1,110 @@
 # coding=utf-8
-import csv
-
 from simple_ars import search_object
 
 __authors__ = 'Manolis Tsoukalas'
 __date__ = '2017-1-3'
-__version__ = '0.5'
+__version__ = '0.8'
 
 """
 extraction functionalities 
 """
 
 
-def create_header(search_json):
+def ars_list(response_data, search_json):
     """
-    method for creating header data for the csv file
-    :param search_json: search parameters in json format
-    :return: list of header data [header_1, header_2, header_3]
+    method for extracted data in a list format.
+    this method is ideal if you want to extract the retrieved data
+    in csv format or to import them in data tables.
+    :param response_data: the data you want to extract
+    :param search_json: the search parameters in format {"from":["select]}
+    :return: the extracted data in list format.
     """
-    header = []
-    search = search_object.SearchObject(search_json)
-    select_keys = search.src_select
+    sub_data = {}
 
-    for keys in select_keys:
-        if isinstance(keys, dict):
-            sub_header = create_header(keys)
-            for sub_keys in sub_header:
-                header.append(sub_keys)
-        else:
-            header.append(keys)
+    sub_keys = False
 
-    return header
+    if isinstance(search_json, dict):
+        search = search_object.SearchObject(search_json)
+        _from = search.src_from
+        _select = search.src_select
 
+        for select in _select:
+            if isinstance(select, dict):
+                sub_keys = True
+    else:
+        _from = search_json
+        _select = []
 
-def retrieve_data(data, header):
-    """
-    method for processing the retrieved data and find the correct relationship to display in csv format.
-    :param data: data to be processed.
-    :param header: the header we want to extract.
-    :return: return the data corresponding to the header.
-    """
-    dict_data = {}
+    if sub_keys:
+        if isinstance(response_data, dict):
+            list_data = []
+            for key, value in response_data.items():
+                if key == _from:
+                    if isinstance(value, dict):
+                        for select in _select:
+                            data = ars_list(value, select)
 
-    if isinstance(data, dict):
-        if header in data.keys():
-            dict_data.update({header: data[header]})
-        else:
-            for key, value in data.items():
-                if isinstance(value, list):
-                    if value:
-                        list_data = retrieve_data(value[0], header)
-                        dict_data.update(list_data)
-                    else:
-                        dict_data.update({header: value})
-                elif isinstance(value, dict):
-                    sub_data = retrieve_data(value, header)
-                    dict_data.update(sub_data)
-    elif isinstance(data, list):
-        dict_data.update(retrieve_data(data[0], header))
-    return dict_data
+                            if isinstance(data, list):
+                                list_data = data
+                            else:
+                                list_data.append(data)
 
+                        return list_data
+                    elif isinstance(value, list):
+                        list_data = []
+                        sub_data = {}
+                        for element in value:
+                            for select in _select:
+                                data = ars_list(element, select)
 
-def get_save_data(retrieved_data, headers):
-    """
-    method for serializing the retrieved data and converted for csv extraction
-    :param headers: the headers for the csv columns
-    :param retrieved_data: the data retrieved from the core retrieve process
-    :return: return the data for saving in array containing dicts [{dict_1}, {dict_2}]
-    """
+                                if isinstance(data, list):
+                                    for i in data:
+                                        sub_data.update(i)
+                                else:
+                                    sub_data.update(data)
 
-    csv_data = []
+                            list_data.append(sub_data)
 
-    if isinstance(retrieved_data, dict):
-        dict_data = {}
-        for header in headers:
-            data = retrieve_data(retrieved_data, header)
-            dict_data.update(data)
-        csv_data.append(dict_data)
-    elif isinstance(retrieved_data, list):
-        item = []
-        for data in retrieved_data:
-            dict_data = {}
-            for header in headers:
-                dict_data.update(retrieve_data(data, header))
-            item.append(dict_data)
-        csv_data = item
-    return csv_data
+                        return list_data
+        elif isinstance(response_data, list):
+            list_data = []
 
+            for items in response_data:
+                sub_data = {}
 
-def csv_extraction(retrieved_data, search_data, csv_file_name):
-    """
-    the main extraction method for creating csv file
-    :param retrieved_data: the data retrieved from the core functionality
-    :param search_data: the search parameters in json format
-    :param csv_file_name: the name for the csv file you created
-    :return: the csv file
-    """
-    headers = create_header(search_data)
-    save_data = get_save_data(retrieved_data, headers)
+                for select in _select:
+                    if isinstance(select, dict):
+                        data = ars_list(items, select)
+                        if data:
+                            sub_data.update(*data)
 
-    with open(csv_file_name + '.csv', 'w') as csv_file:
-        fieldnames = headers
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+                list_data.append(sub_data)
+            return list_data
+    else:
+        if isinstance(response_data, dict):
 
-        writer.writeheader()
-        for data in save_data:
-            writer.writerow(data)
+            if isinstance(response_data[_from], list):
+                list_data = []
 
-    return save_data
+                for items in response_data[_from]:
+                    sub_data = {}
+                    for select in _select:
+                        sub_data[select] = items.get(select)
+                    list_data.append(sub_data)
+                return list_data
+            elif isinstance(response_data[_from], dict):
+                for select in _select:
+                    sub_data[select] = response_data[_from].get(select)
+                return sub_data
+            else:
+                sub_data[_from] = response_data.get(_from)
+                return sub_data
+        elif isinstance(response_data, list):
+            list_data = []
+
+            for items in response_data:
+                sub_data = {}
+                for select in _select:
+                    sub_data[select] = items.get(select)
+                list_data.append(sub_data)
+            return list_data
