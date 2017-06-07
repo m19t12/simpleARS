@@ -16,6 +16,8 @@ class CoreTestCase(BaseARSTestCase):
         self.single_search_key_doesnt_exist = {"data": [{"records": ['foo', 'status', 'address']}, 'total']}
         self.list_search_key_doesnt_exist = {"~": ['bar', 'name', 'zip_code']}
 
+        self.single_search_root = {"~": ['status_text', 'status_code']}
+
     def test_ars_functionality(self):
         """Test if method ars works properly
         """
@@ -66,6 +68,12 @@ class CoreTestCase(BaseARSTestCase):
         # Check if key doesnt exist in single json response second element
         second_element = response['records'][1]
         self.assertEqual(second_element['foo'], None)
+
+        # -- Test single json response retrieve from root
+        response = ars(self.single_response_data, self.single_search_root)
+
+        # Check if response contains the status_code key
+        self.assertEqual(response['status_code'], 200)
 
         # -- Test for list response --
         response = ars(self.list_response_data, self.list_search)
