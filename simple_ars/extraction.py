@@ -31,57 +31,73 @@ def create_header(search_json):
     return header
 
 
-def retrieve_data(data, header):
+def ars_list(response_data, search_json):
     """
-    method for processing the retrieved data and find the correct relationship to display in csv format.
-    :param data: data to be processed.
-    :param header: the header we want to extract.
-    :return: return the data corresponding to the header.
+    method
+    :param response_data:
+    :param search_json:
+    :return:
     """
-    dict_data = {}
+    sub_data = {}
+    search = search_object.SearchObject(search_json)
+    _from = search.src_from
+    _select = search.src_select
+    sub_keys = False
 
-    if isinstance(data, dict):
-        if header in data.keys():
-            dict_data.update({header: data[header]})
-        else:
-            for key, value in data.items():
-                if isinstance(value, list):
-                    if value:
-                        sub_list_data = retrieve_data(value[0], header)
-                        dict_data.update(sub_list_data)
+    for select in _select:
+        if isinstance(select, dict):
+            sub_keys = True
+
+    if sub_keys:
+        if isinstance(response_data, dict):
+
+            for key, value in response_data.items():
+                if key == _from:
+                    if isinstance(value, dict):
+                        for select in _select:
+                            sub_data = ars_list(value, select)
+                    elif isinstance(value, list):
+                        list_data = []
+                        for element in value:
+                            for select in _select:
+                                sub_data = ars_list(element, select)
+                            list_data.append(sub_data)
+                        return list_data
+
+        elif isinstance(response_data, list):
+            list_data = []
+
+            for items in response_data:
+                sub_data = {}
+
+                for select in _select:
+                    if isinstance(select, dict):
+                        sub_data.update(ars_list(items, select))
                     else:
-                        dict_data.update({header: value})
-                elif isinstance(value, dict):
-                    sub_data = retrieve_data(value, header)
-                    dict_data.update(sub_data)
-    elif isinstance(data, list):
-        dict_data.update(retrieve_data(data[0], header))
-    return dict_data
+                        sub_data[select] = items.get(select)
+                list_data.append(sub_data)
+            return list_data
+    else:
+        if isinstance(response_data, dict):
+            if isinstance(response_data[_from], list):
+                list_data = []
 
+                for items in response_data[_from]:
+                    sub_data = {}
+                    for select in _select:
+                        sub_data[select] = items.get(select)
+                    list_data.append(sub_data)
+                return list_data
+            elif isinstance(response_data[_from], dict):
+                for select in _select:
+                    sub_data[select] = response_data[_from].get(select)
+                return sub_data
+        elif isinstance(response_data, list):
+            list_data = []
 
-def list_data(retrieved_data, search_json):
-    """
-    method for serializing the retrieved data and converted for csv extraction
-    :param search_json: the headers for the csv columns
-    :param retrieved_data: the data retrieved from the core retrieve process
-    :return: return the data for saving in array containing dicts [{dict_1}, {dict_2}]
-    """
+            for items in response_data:
+                for select in _select:
+                    sub_data[select] = items.get(select)
+            return list_data
 
-    extracted_list_data = []
-    headers = create_header(search_json)
-
-    if isinstance(retrieved_data, dict):
-        dict_data = {}
-        for header in headers:
-            data = retrieve_data(retrieved_data, header)
-            dict_data.update(data)
-        extracted_list_data.append(dict_data)
-    elif isinstance(retrieved_data, list):
-        item = []
-        for data in retrieved_data:
-            dict_data = {}
-            for header in headers:
-                dict_data.update(retrieve_data(data, header))
-            item.append(dict_data)
-        extracted_list_data = item
-    return extracted_list_data
+    return sub_data
