@@ -1,6 +1,6 @@
 # coding=utf-8
-from tests import BaseARSTestCase
 from simple_ars.extraction import ars_list
+from tests import BaseARSTestCase
 
 
 class ExtractionTestCase(BaseARSTestCase):
@@ -37,7 +37,7 @@ class ExtractionTestCase(BaseARSTestCase):
 
         # Check if first element contains the name key
         first_element = response[0]
-        self.assertEqual(first_element['name'], 'Savhotel')
+        self.assertEqual(first_element['name'], 'Agostiniana Hotel')
 
         # -- Test list json search --
         response = ars_list(self.list_response_data, self.list_search)
@@ -48,7 +48,7 @@ class ExtractionTestCase(BaseARSTestCase):
 
         # -- Test list json sub search --
         response = ars_list(self.list_response_data, self.list_sub_search)
-        print(response)
+
         # Check if first element has max_price
         first_element = response[0]
         self.assertEqual(first_element['max_price'], 2.0)

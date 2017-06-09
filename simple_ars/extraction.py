@@ -3,7 +3,7 @@ from simple_ars import search_object
 
 __authors__ = 'Manolis Tsoukalas'
 __date__ = '2017-1-3'
-__version__ = '0.8'
+__version__ = '0.8.1'
 
 """
 extraction functionalities 
@@ -52,8 +52,8 @@ def ars_list(response_data, search_json):
                         return list_data
                     elif isinstance(value, list):
                         list_data = []
-                        sub_data = {}
                         for element in value:
+                            sub_data = {}
                             for select in _select:
                                 data = ars_list(element, select)
 
