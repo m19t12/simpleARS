@@ -29,14 +29,15 @@ class ExtractionTestCase(BaseARSTestCase):
         self.assertEqual(response[10]['total'], 4122)
 
         # check if contains the sub data
-        first_element = response[0]
+        first_element = response[0]['records']
         self.assertEqual(first_element['status'], "ready")
 
         # -- Test single json sub search --
         response = ars_list(self.single_response_data, self.single_sub_search)
 
         # Check if first element contains the name key
-        first_element = response[0]
+        first_element = response[0]['languages']
+
         self.assertEqual(first_element['name'], 'Agostiniana Hotel')
 
         # -- Test list json search --
@@ -50,5 +51,5 @@ class ExtractionTestCase(BaseARSTestCase):
         response = ars_list(self.list_response_data, self.list_sub_search)
 
         # Check if first element has max_price
-        first_element = response[0]
+        first_element = response[0]['prices']
         self.assertEqual(first_element['max_price'], 2.0)
