@@ -3,7 +3,7 @@ from simple_ars import search_object
 
 __authors__ = 'Manolis Tsoukalas'
 __date__ = '2017-1-3'
-__version__ = '0.9'
+__version__ = '0.9.1'
 
 """
 extraction functionalities 
@@ -19,8 +19,6 @@ def ars_list(response_data, search_json):
     :param search_json: the search parameters in format {"from":["select]}
     :return: the extracted data in list format.
     """
-    sub_data = {}
-
     sub_keys = False
 
     if isinstance(search_json, dict):
@@ -82,39 +80,13 @@ def ars_list(response_data, search_json):
             return list_data
     else:
         if isinstance(response_data, dict):
-
             if isinstance(response_data[_from], list):
-                list_data = []
-
-                for items in response_data[_from]:
-                    sub_data = {}
-
-                    for select in _select:
-                        sub_data[select] = items.get(select)
-                    list_data.append(
-                        {
-                            _from: sub_data
-                        }
-                    )
-                return list_data
-
+                sub_data = response_data[_from]
+                return [{_from: {key: items.get(key) for key in _select}} for items in sub_data]
             elif isinstance(response_data[_from], dict):
-
-                for select in _select:
-                    sub_data[select] = response_data[_from].get(select)
-                return {
-                    _from: sub_data
-                }
-
+                sub_data = response_data[_from]
+                return {_from: {key: sub_data.get(key) for key in _select}}
             else:
-                sub_data[_from] = response_data.get(_from)
-                return sub_data
+                return {_from: response_data.get(_from)}
         elif isinstance(response_data, list):
-            list_data = []
-
-            for items in response_data:
-                sub_data = {}
-                for select in _select:
-                    sub_data[select] = items.get(select)
-                list_data.append(sub_data)
-            return list_data
+            return [{key: items.get(key) for key in _select} for items in response_data]
