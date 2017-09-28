@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name='simpleARS',
-    version='0.9',
+    version='0.9.2',
     packages=['tests', 'simple_ars'],
     url='https://github.com/m19t12/simpleARS',
     license='GPL-3.0',

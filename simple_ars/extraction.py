@@ -3,7 +3,7 @@ from simple_ars import search_object
 
 __authors__ = 'Manolis Tsoukalas'
 __date__ = '2017-1-3'
-__version__ = '0.9.1'
+__version__ = '0.9.2'
 
 """
 extraction functionalities 
@@ -40,12 +40,12 @@ def ars_list(response_data, search_json):
                 if key == _from:
                     if isinstance(value, dict):
                         for select in _select:
-                            data = ars_list(value, select)
+                            retrieved_data = ars_list(value, select)
 
-                            if isinstance(data, list):
-                                list_data = data
+                            if isinstance(retrieved_data, list):
+                                list_data = retrieved_data
                             else:
-                                list_data.append(data)
+                                list_data.append(retrieved_data)
 
                         return list_data
                     elif isinstance(value, list):
@@ -53,13 +53,13 @@ def ars_list(response_data, search_json):
                         for element in value:
                             sub_data = {}
                             for select in _select:
-                                data = ars_list(element, select)
+                                retrieved_data = ars_list(element, select)
 
-                                if isinstance(data, list):
-                                    for i in data:
+                                if isinstance(retrieved_data, list):
+                                    for i in retrieved_data:
                                         sub_data.update(i)
                                 else:
-                                    sub_data.update(data)
+                                    sub_data.update(retrieved_data)
 
                             list_data.append(sub_data)
 
@@ -72,9 +72,13 @@ def ars_list(response_data, search_json):
 
                 for select in _select:
                     if isinstance(select, dict):
-                        data = ars_list(items, select)
-                        if data:
-                            sub_data.update(*data)
+                        retrieved_data = ars_list(items, select)
+
+                        if retrieved_data:
+                            if isinstance(retrieved_data, list):
+                                sub_data.update(*retrieved_data)
+                            else:
+                                sub_data.update(retrieved_data)
 
                 list_data.append(sub_data)
             return list_data
