@@ -87,7 +87,8 @@ def ars_list(response_data, search_json):
                                 sub_data.update(*retrieved_data)
                             else:
                                 sub_data.update(retrieved_data)
-
+                    else:
+                        sub_data.update({select: items.get(select)})
                 list_data.append(sub_data)
             return list_data
     else:
@@ -103,6 +104,5 @@ def ars_list(response_data, search_json):
                     return {_from: response_data.get(_from)}
             elif _from == "~":
                 return [{key: response_data.get(key) for key in _select}]
-
         elif isinstance(response_data, list):
             return [{key: items.get(key) for key in _select} for items in response_data]
