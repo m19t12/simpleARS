@@ -64,6 +64,14 @@ def ars_list(response_data, search_json):
                             list_data.append(sub_data)
 
                         return list_data
+                elif _from == '~':
+                    for select in _select:
+                        if isinstance(select, dict):
+                            retrieved_data = ars_list(response_data, select)
+                            list_data.append(retrieved_data)
+                        else:
+                            list_data.append({select: response_data.get(select)})
+                    return list_data
         elif isinstance(response_data, list):
             list_data = []
 
@@ -84,13 +92,17 @@ def ars_list(response_data, search_json):
             return list_data
     else:
         if isinstance(response_data, dict):
-            if isinstance(response_data[_from], list):
-                sub_data = response_data[_from]
-                return [{_from: {key: items.get(key) for key in _select}} for items in sub_data]
-            elif isinstance(response_data[_from], dict):
-                sub_data = response_data[_from]
-                return {_from: {key: sub_data.get(key) for key in _select}}
-            else:
-                return {_from: response_data.get(_from)}
+            if response_data.get(_from):
+                if isinstance(response_data[_from], list):
+                    sub_data = response_data[_from]
+                    return [{_from: {key: items.get(key) for key in _select}} for items in sub_data]
+                elif isinstance(response_data[_from], dict):
+                    sub_data = response_data[_from]
+                    return {_from: {key: sub_data.get(key) for key in _select}}
+                else:
+                    return {_from: response_data.get(_from)}
+            elif _from == "~":
+                return [{key: response_data.get(key) for key in _select}]
+
         elif isinstance(response_data, list):
             return [{key: items.get(key) for key in _select} for items in response_data]

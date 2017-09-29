@@ -16,6 +16,9 @@ class ExtractionTestCase(BaseARSTestCase):
         self.single_search_key_doesnt_exist = {"data": [{"records": ['foo', 'status', 'address']}, 'total']}
         self.list_search_key_doesnt_exist = {"~": ['bar', 'name', 'zip_code']}
 
+        self.simple_search = {"~": ["id", "name"]}
+        self.simple_sub_search = {"~": [{"address": ["city"]}, "id"]}
+
     def test_ars_list(self):
         """test if method ars_list works properly
         """
@@ -53,3 +56,21 @@ class ExtractionTestCase(BaseARSTestCase):
         # Check if first element has max_price
         first_element = response[0]['prices']
         self.assertEqual(first_element['max_price'], 2.0)
+
+        # -- Test simple json search --
+        response = ars_list(self.simple_response_data, self.simple_search)
+
+        # Check if element has name
+        first_element = response[0]['name']
+        self.assertEqual(first_element, "Leanne Graham")
+
+        # -- Test simple json search --
+        response = ars_list(self.simple_response_data, self.simple_sub_search)
+
+        # Check if element has address and in address is the key city
+        first_element = response[0]['address']
+        self.assertEqual(first_element['city'], "Gwenborough")
+
+        # Check if element has id
+        first_element = response[1]['id']
+        self.assertEqual(first_element, 1)
